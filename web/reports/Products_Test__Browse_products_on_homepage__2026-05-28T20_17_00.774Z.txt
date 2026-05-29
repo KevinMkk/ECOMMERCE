@@ -1,0 +1,26 @@
+
+====================================================
+TEST SUITE: Products Test
+TEST CASE: Browse products on homepage
+STATUS: PASSED
+TIME: 2026-05-28T20:17:00.774Z
+DURATION: 1.62s
+====================================================
+
+FUNCTIONALITIES VERIFIED:
+✔ Product retrieval
+✔ Homepage rendering
+✔ Product card display
+
+EXPECTED RESULT:
+Country-selected homepage should display products
+
+ACTUAL RESULT:
+12 products displayed after selecting shopping country
+
+
+SCREENSHOT:
+D:\School\Software Testing\Group\Econmgroup2\ECOMMERCE_Shein_UI\ECOMMERCE _group\ECOMMERCE\web\reports\screenshots\products-loaded.png
+
+====================================================
+

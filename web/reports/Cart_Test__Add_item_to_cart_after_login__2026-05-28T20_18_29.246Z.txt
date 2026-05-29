@@ -1,0 +1,27 @@
+
+====================================================
+TEST SUITE: Cart Test
+TEST CASE: Add item to cart after login
+STATUS: PASSED
+TIME: 2026-05-28T20:18:29.246Z
+DURATION: 2.125s
+====================================================
+
+FUNCTIONALITIES VERIFIED:
+✔ Customer login
+✔ Cart addition
+✔ Cart quantity update
+✔ Cart badge rendering
+
+EXPECTED RESULT:
+Cart badge should display at least 1 item
+
+ACTUAL RESULT:
+Cart badge displayed: 1
+
+
+SCREENSHOT:
+D:\School\Software Testing\Group\Econmgroup2\ECOMMERCE_Shein_UI\ECOMMERCE _group\ECOMMERCE\web\reports\screenshots\cart-added-success.png
+
+====================================================
+

@@ -1,0 +1,27 @@
+
+====================================================
+TEST SUITE: Admin Test
+TEST CASE: Admin login and access admin panel
+STATUS: PASSED
+TIME: 2026-05-28T20:16:34.570Z
+DURATION: 2.303s
+====================================================
+
+FUNCTIONALITIES VERIFIED:
+✔ Admin authentication
+✔ Admin navigation
+✔ Admin dashboard rendering
+✔ Role access control
+
+EXPECTED RESULT:
+Admin dashboard should load
+
+ACTUAL RESULT:
+Admin dashboard loaded successfully
+
+
+SCREENSHOT:
+D:\School\Software Testing\Group\Econmgroup2\ECOMMERCE_Shein_UI\ECOMMERCE _group\ECOMMERCE\web\reports\screenshots\admin-panel-success.png
+
+====================================================
+

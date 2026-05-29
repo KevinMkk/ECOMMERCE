@@ -1,0 +1,29 @@
+
+====================================================
+TEST SUITE: Products Test
+TEST CASE: Browse products on homepage
+STATUS: FAILED
+TIME: 2026-05-28T19:18:09.827Z
+DURATION: 10.924s
+====================================================
+
+FUNCTIONALITIES VERIFIED:
+✔ Homepage product rendering
+
+EXPECTED RESULT:
+Products should load
+
+ACTUAL RESULT:
+No products displayed
+
+ERROR DETAILS:
+TimeoutError: Waiting for at least one element to be located By(css selector, .productCard)
+Wait timed out after 10215ms
+    at D:\School\Software Testing\Group\Econmgroup2\ECOMMERCE_Shein_UI\ECOMMERCE _group\ECOMMERCE\web\node_modules\selenium-webdriver\lib\webdriver.js:929:22
+    at processTicksAndRejections (node:internal/process/task_queues:104:5)
+
+SCREENSHOT:
+D:\School\Software Testing\Group\Econmgroup2\ECOMMERCE_Shein_UI\ECOMMERCE _group\ECOMMERCE\web\reports\screenshots\products-load-failed.png
+
+====================================================
+

@@ -1,0 +1,28 @@
+
+====================================================
+TEST SUITE: Cart Test
+TEST CASE: Add item to cart after login
+STATUS: FAILED
+TIME: 2026-05-28T20:14:06.418Z
+DURATION: 1.74s
+====================================================
+
+FUNCTIONALITIES VERIFIED:
+✔ Cart functionality validation
+
+EXPECTED RESULT:
+Item should be added to cart
+
+ACTUAL RESULT:
+Cart update failed
+
+ERROR DETAILS:
+TypeError: addFirstProductToCart is not a function
+    at Object.addFirstProductToCart (D:\School\Software Testing\Group\Econmgroup2\ECOMMERCE_Shein_UI\ECOMMERCE _group\ECOMMERCE\web\tests\cart.test.js:36:19)
+    at processTicksAndRejections (node:internal/process/task_queues:104:5)
+
+SCREENSHOT:
+D:\School\Software Testing\Group\Econmgroup2\ECOMMERCE_Shein_UI\ECOMMERCE _group\ECOMMERCE\web\reports\screenshots\cart-add-failed.png
+
+====================================================
+

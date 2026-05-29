@@ -1,0 +1,28 @@
+
+====================================================
+TEST SUITE: Login Test
+TEST CASE: Successful login with demo customer
+STATUS: PASSED
+TIME: 2026-05-28T20:16:50.391Z
+DURATION: 1.382s
+====================================================
+
+FUNCTIONALITIES VERIFIED:
+✔ Sign In button accessible
+✔ Demo login available
+✔ Customer authentication
+✔ Session creation
+✔ Username displayed
+
+EXPECTED RESULT:
+Alice should login successfully
+
+ACTUAL RESULT:
+Logged in as: Alice
+
+
+SCREENSHOT:
+D:\School\Software Testing\Group\Econmgroup2\ECOMMERCE_Shein_UI\ECOMMERCE _group\ECOMMERCE\web\reports\screenshots\customer-login-success.png
+
+====================================================
+

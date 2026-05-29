@@ -1,0 +1,31 @@
+
+====================================================
+TEST SUITE: Login Test
+TEST CASE: Loads homepage correctly
+STATUS: FAILED
+TIME: 2026-05-28T20:13:58.240Z
+DURATION: 1.435s
+====================================================
+
+FUNCTIONALITIES VERIFIED:
+✔ Homepage accessibility validation
+
+EXPECTED RESULT:
+Homepage should load successfully
+
+ACTUAL RESULT:
+Homepage failed to load
+
+ERROR DETAILS:
+Error: expect(received).toContain(expected) // indexOf
+
+Expected substring: "ECOMMERCE"
+Received string:    "E-Commerce Store"
+    at Object.toContain (D:\School\Software Testing\Group\Econmgroup2\ECOMMERCE_Shein_UI\ECOMMERCE _group\ECOMMERCE\web\tests\login.test.js:38:27)
+    at processTicksAndRejections (node:internal/process/task_queues:104:5)
+
+SCREENSHOT:
+D:\School\Software Testing\Group\Econmgroup2\ECOMMERCE_Shein_UI\ECOMMERCE _group\ECOMMERCE\web\reports\screenshots\homepage-load-failed.png
+
+====================================================
+

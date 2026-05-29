@@ -1,0 +1,31 @@
+
+====================================================
+TEST SUITE: Orders Test
+TEST CASE: Place an order successfully
+STATUS: PASSED
+TIME: 2026-05-28T20:14:57.187Z
+DURATION: 3.501s
+====================================================
+
+FUNCTIONALITIES VERIFIED:
+✔ Customer authentication
+✔ Shopping country selection
+✔ Product cart addition
+✔ Cart item selection
+✔ Shipping address capture
+✔ Payment method selection
+✔ Order review and confirmation
+✔ Purchase workflow completion
+
+EXPECTED RESULT:
+Customer should complete the full checkout workflow successfully
+
+ACTUAL RESULT:
+Order placed successfully. Confirmation message: Payment Successful!
+
+
+SCREENSHOT:
+D:\School\Software Testing\Group\Econmgroup2\ECOMMERCE_Shein_UI\ECOMMERCE _group\ECOMMERCE\web\reports\screenshots\place-order-success.png
+
+====================================================
+

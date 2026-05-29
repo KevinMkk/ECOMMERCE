@@ -1,0 +1,26 @@
+
+====================================================
+TEST SUITE: Login Test
+TEST CASE: Successful admin login
+STATUS: PASSED
+TIME: 2026-05-28T20:18:23.235Z
+DURATION: 1.191s
+====================================================
+
+FUNCTIONALITIES VERIFIED:
+✔ Admin authentication
+✔ Admin session validation
+✔ Role verification
+
+EXPECTED RESULT:
+Admin should login successfully
+
+ACTUAL RESULT:
+Admin authenticated successfully
+
+
+SCREENSHOT:
+D:\School\Software Testing\Group\Econmgroup2\ECOMMERCE_Shein_UI\ECOMMERCE _group\ECOMMERCE\web\reports\screenshots\admin-login-success.png
+
+====================================================
+

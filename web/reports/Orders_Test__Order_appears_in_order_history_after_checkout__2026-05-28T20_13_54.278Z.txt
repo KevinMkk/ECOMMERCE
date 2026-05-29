@@ -1,0 +1,37 @@
+
+====================================================
+TEST SUITE: Orders Test
+TEST CASE: Order appears in order history after checkout
+STATUS: FAILED
+TIME: 2026-05-28T20:13:54.278Z
+DURATION: 1.087s
+====================================================
+
+FUNCTIONALITIES VERIFIED:
+✔ Order history validation
+
+EXPECTED RESULT:
+Orders should appear in order history
+
+ACTUAL RESULT:
+No orders found in order history
+
+ERROR DETAILS:
+
+TypeError: addFirstProductToCart is not a function
+    at Object.addFirstProductToCart (D:\School\Software Testing\Group\Econmgroup2\ECOMMERCE_Shein_UI\ECOMMERCE _group\ECOMMERCE\web\tests\orders.test.js:214:19)
+    at processTicksAndRejections (node:internal/process/task_queues:104:5)
+
+POSSIBLE CAUSES:
+- Orders not saved to database
+- Orders API failed
+- Frontend rendering issue
+- Authentication issue
+- Order retrieval query failure
+
+
+SCREENSHOT:
+D:\School\Software Testing\Group\Econmgroup2\ECOMMERCE_Shein_UI\ECOMMERCE _group\ECOMMERCE\web\reports\screenshots\order-history-failed.png
+
+====================================================
+

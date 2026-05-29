@@ -1,0 +1,26 @@
+
+====================================================
+TEST SUITE: Orders Test
+TEST CASE: Order appears in order history after checkout
+STATUS: PASSED
+TIME: 2026-05-28T20:18:12.833Z
+DURATION: 4.234s
+====================================================
+
+FUNCTIONALITIES VERIFIED:
+✔ Order history retrieval
+✔ Database order persistence
+✔ Customer order history rendering
+
+EXPECTED RESULT:
+Placed orders should appear in history
+
+ACTUAL RESULT:
+9 orders found in customer history
+
+
+SCREENSHOT:
+D:\School\Software Testing\Group\Econmgroup2\ECOMMERCE_Shein_UI\ECOMMERCE _group\ECOMMERCE\web\reports\screenshots\order-history-success.png
+
+====================================================
+

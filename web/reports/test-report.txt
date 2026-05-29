@@ -1,0 +1,1731 @@
+TEST RUN STARTED: 2026-05-28T18:13:23.507Z
+
+
+====================================================
+TEST SUITE: Orders Test
+TEST CASE: View orders after login
+STATUS: FAILED
+TIME: 2026-05-28T19:16:38.751Z
+DURATION: 11.141s
+====================================================
+
+FUNCTIONALITIES VERIFIED:
+✔ Orders page validation
+
+EXPECTED RESULT:
+Orders page should load successfully
+
+ACTUAL RESULT:
+Orders page failed to load or orders inaccessible
+
+ERROR DETAILS:
+TimeoutError: Waiting for element to be located By(xpath, //button[text()='Sign In'])
+Wait timed out after 10059ms
+    at D:\School\Software Testing\Group\Econmgroup2\ECOMMERCE_Shein_UI\ECOMMERCE _group\ECOMMERCE\web\node_modules\selenium-webdriver\lib\webdriver.js:929:22
+    at processTicksAndRejections (node:internal/process/task_queues:104:5)
+
+SCREENSHOT:
+D:\School\Software Testing\Group\Econmgroup2\ECOMMERCE_Shein_UI\ECOMMERCE _group\ECOMMERCE\web\reports\screenshots\view-orders-failed.png
+
+====================================================
+
+
+====================================================
+TEST SUITE: Orders Test
+TEST CASE: Place an order successfully
+STATUS: FAILED
+TIME: 2026-05-28T19:16:49.057Z
+DURATION: 10.299s
+====================================================
+
+FUNCTIONALITIES VERIFIED:
+✔ Checkout workflow validation
+
+EXPECTED RESULT:
+Order should be placed successfully
+
+ACTUAL RESULT:
+Checkout process failed
+
+ERROR DETAILS:
+
+TimeoutError: Waiting for element to be located By(xpath, //button[text()='Sign In'])
+Wait timed out after 10174ms
+    at D:\School\Software Testing\Group\Econmgroup2\ECOMMERCE_Shein_UI\ECOMMERCE _group\ECOMMERCE\web\node_modules\selenium-webdriver\lib\webdriver.js:929:22
+    at processTicksAndRejections (node:internal/process/task_queues:104:5)
+
+POSSIBLE CAUSES:
+- Cart was empty
+- Checkout button not functioning
+- Payment processing failure
+- Backend API issue
+- Database order insert failure
+- Confirmation page not rendered
+- Session expired during checkout
+
+
+SCREENSHOT:
+D:\School\Software Testing\Group\Econmgroup2\ECOMMERCE_Shein_UI\ECOMMERCE _group\ECOMMERCE\web\reports\screenshots\place-order-failed.png
+
+====================================================
+
+
+====================================================
+TEST SUITE: Orders Test
+TEST CASE: Order appears in order history after checkout
+STATUS: FAILED
+TIME: 2026-05-28T19:16:59.579Z
+DURATION: 10.518s
+====================================================
+
+FUNCTIONALITIES VERIFIED:
+✔ Order history validation
+
+EXPECTED RESULT:
+Orders should appear in order history
+
+ACTUAL RESULT:
+No orders found in order history
+
+ERROR DETAILS:
+
+TimeoutError: Waiting for element to be located By(xpath, //button[text()='Sign In'])
+Wait timed out after 10127ms
+    at D:\School\Software Testing\Group\Econmgroup2\ECOMMERCE_Shein_UI\ECOMMERCE _group\ECOMMERCE\web\node_modules\selenium-webdriver\lib\webdriver.js:929:22
+    at processTicksAndRejections (node:internal/process/task_queues:104:5)
+
+POSSIBLE CAUSES:
+- Orders not saved to database
+- Orders API failed
+- Frontend rendering issue
+- Authentication issue
+- Order retrieval query failure
+
+
+SCREENSHOT:
+D:\School\Software Testing\Group\Econmgroup2\ECOMMERCE_Shein_UI\ECOMMERCE _group\ECOMMERCE\web\reports\screenshots\order-history-failed.png
+
+====================================================
+
+
+====================================================
+TEST SUITE: Login Test
+TEST CASE: Loads homepage correctly
+STATUS: FAILED
+TIME: 2026-05-28T19:17:02.151Z
+DURATION: 1.089s
+====================================================
+
+FUNCTIONALITIES VERIFIED:
+✔ Homepage accessibility validation
+
+EXPECTED RESULT:
+Homepage should load successfully
+
+ACTUAL RESULT:
+Homepage failed to load
+
+ERROR DETAILS:
+Error: [2mexpect([22m[31mreceived[39m[2m).[22mtoContain[2m([22m[32mexpected[39m[2m) // indexOf[22m
+
+Expected substring: [32m"ECOMMERCE"[39m
+Received string:    [31m"E-Commerce Store"[39m
+    at Object.toContain (D:\School\Software Testing\Group\Econmgroup2\ECOMMERCE_Shein_UI\ECOMMERCE _group\ECOMMERCE\web\tests\login.test.js:37:27)
+    at processTicksAndRejections (node:internal/process/task_queues:104:5)
+
+SCREENSHOT:
+D:\School\Software Testing\Group\Econmgroup2\ECOMMERCE_Shein_UI\ECOMMERCE _group\ECOMMERCE\web\reports\screenshots\homepage-load-failed.png
+
+====================================================
+
+
+====================================================
+TEST SUITE: Login Test
+TEST CASE: Successful login with demo customer
+STATUS: FAILED
+TIME: 2026-05-28T19:17:12.443Z
+DURATION: 10.287s
+====================================================
+
+FUNCTIONALITIES VERIFIED:
+✔ Customer authentication validation
+
+EXPECTED RESULT:
+User should login successfully
+
+ACTUAL RESULT:
+Customer login failed
+
+ERROR DETAILS:
+TimeoutError: Waiting for element to be located By(xpath, //button[text()='Sign In'])
+Wait timed out after 10148ms
+    at D:\School\Software Testing\Group\Econmgroup2\ECOMMERCE_Shein_UI\ECOMMERCE _group\ECOMMERCE\web\node_modules\selenium-webdriver\lib\webdriver.js:929:22
+    at processTicksAndRejections (node:internal/process/task_queues:104:5)
+
+SCREENSHOT:
+D:\School\Software Testing\Group\Econmgroup2\ECOMMERCE_Shein_UI\ECOMMERCE _group\ECOMMERCE\web\reports\screenshots\customer-login-failed.png
+
+====================================================
+
+
+====================================================
+TEST SUITE: Login Test
+TEST CASE: Failed login with invalid credentials
+STATUS: FAILED
+TIME: 2026-05-28T19:17:23.061Z
+DURATION: 10.614s
+====================================================
+
+FUNCTIONALITIES VERIFIED:
+✔ Authentication rejection validation
+
+EXPECTED RESULT:
+Invalid login should fail
+
+ACTUAL RESULT:
+System behavior unexpected
+
+ERROR DETAILS:
+TimeoutError: Waiting for element to be located By(xpath, //button[text()='Sign In'])
+Wait timed out after 10166ms
+    at D:\School\Software Testing\Group\Econmgroup2\ECOMMERCE_Shein_UI\ECOMMERCE _group\ECOMMERCE\web\node_modules\selenium-webdriver\lib\webdriver.js:929:22
+    at processTicksAndRejections (node:internal/process/task_queues:104:5)
+
+SCREENSHOT:
+D:\School\Software Testing\Group\Econmgroup2\ECOMMERCE_Shein_UI\ECOMMERCE _group\ECOMMERCE\web\reports\screenshots\invalid-login-failure.png
+
+====================================================
+
+
+====================================================
+TEST SUITE: Login Test
+TEST CASE: Successful admin login
+STATUS: FAILED
+TIME: 2026-05-28T19:17:33.496Z
+DURATION: 10.341s
+====================================================
+
+FUNCTIONALITIES VERIFIED:
+✔ Admin authentication validation
+
+EXPECTED RESULT:
+Admin login should succeed
+
+ACTUAL RESULT:
+Admin login failed
+
+ERROR DETAILS:
+TimeoutError: Waiting for element to be located By(xpath, //button[text()='Sign In'])
+Wait timed out after 10193ms
+    at D:\School\Software Testing\Group\Econmgroup2\ECOMMERCE_Shein_UI\ECOMMERCE _group\ECOMMERCE\web\node_modules\selenium-webdriver\lib\webdriver.js:929:22
+    at processTicksAndRejections (node:internal/process/task_queues:104:5)
+
+SCREENSHOT:
+D:\School\Software Testing\Group\Econmgroup2\ECOMMERCE_Shein_UI\ECOMMERCE _group\ECOMMERCE\web\reports\screenshots\admin-login-failure.png
+
+====================================================
+
+
+====================================================
+TEST SUITE: Admin Test
+TEST CASE: Admin login and access admin panel
+STATUS: FAILED
+TIME: 2026-05-28T19:17:45.377Z
+DURATION: 10.824s
+====================================================
+
+FUNCTIONALITIES VERIFIED:
+✔ Admin functionality validation
+
+EXPECTED RESULT:
+Admin dashboard should open
+
+ACTUAL RESULT:
+Admin dashboard inaccessible
+
+ERROR DETAILS:
+TimeoutError: Waiting for element to be located By(xpath, //button[text()='Sign In'])
+Wait timed out after 10094ms
+    at D:\School\Software Testing\Group\Econmgroup2\ECOMMERCE_Shein_UI\ECOMMERCE _group\ECOMMERCE\web\node_modules\selenium-webdriver\lib\webdriver.js:929:22
+    at processTicksAndRejections (node:internal/process/task_queues:104:5)
+
+SCREENSHOT:
+D:\School\Software Testing\Group\Econmgroup2\ECOMMERCE_Shein_UI\ECOMMERCE _group\ECOMMERCE\web\reports\screenshots\admin-panel-failed.png
+
+====================================================
+
+
+====================================================
+TEST SUITE: Cart Test
+TEST CASE: Add item to cart after login
+STATUS: FAILED
+TIME: 2026-05-28T19:17:57.777Z
+DURATION: 10.902s
+====================================================
+
+FUNCTIONALITIES VERIFIED:
+✔ Cart functionality validation
+
+EXPECTED RESULT:
+Item should be added to cart
+
+ACTUAL RESULT:
+Cart update failed
+
+ERROR DETAILS:
+TimeoutError: Waiting for element to be located By(xpath, //button[text()='Sign In'])
+Wait timed out after 10025ms
+    at D:\School\Software Testing\Group\Econmgroup2\ECOMMERCE_Shein_UI\ECOMMERCE _group\ECOMMERCE\web\node_modules\selenium-webdriver\lib\webdriver.js:929:22
+    at processTicksAndRejections (node:internal/process/task_queues:104:5)
+
+SCREENSHOT:
+D:\School\Software Testing\Group\Econmgroup2\ECOMMERCE_Shein_UI\ECOMMERCE _group\ECOMMERCE\web\reports\screenshots\cart-add-failed.png
+
+====================================================
+
+
+====================================================
+TEST SUITE: Products Test
+TEST CASE: Browse products on homepage
+STATUS: FAILED
+TIME: 2026-05-28T19:18:09.827Z
+DURATION: 10.924s
+====================================================
+
+FUNCTIONALITIES VERIFIED:
+✔ Homepage product rendering
+
+EXPECTED RESULT:
+Products should load
+
+ACTUAL RESULT:
+No products displayed
+
+ERROR DETAILS:
+TimeoutError: Waiting for at least one element to be located By(css selector, .productCard)
+Wait timed out after 10215ms
+    at D:\School\Software Testing\Group\Econmgroup2\ECOMMERCE_Shein_UI\ECOMMERCE _group\ECOMMERCE\web\node_modules\selenium-webdriver\lib\webdriver.js:929:22
+    at processTicksAndRejections (node:internal/process/task_queues:104:5)
+
+SCREENSHOT:
+D:\School\Software Testing\Group\Econmgroup2\ECOMMERCE_Shein_UI\ECOMMERCE _group\ECOMMERCE\web\reports\screenshots\products-load-failed.png
+
+====================================================
+
+
+====================================================
+TEST SUITE: Orders Test
+TEST CASE: View orders after login
+STATUS: PASSED
+TIME: 2026-05-28T20:13:52.130Z
+DURATION: 3.415s
+====================================================
+
+FUNCTIONALITIES VERIFIED:
+✔ Customer authentication
+✔ Orders page navigation
+✔ Orders retrieval
+✔ Orders rendering
+✔ Authenticated order access
+
+EXPECTED RESULT:
+Orders page should display customer orders
+
+ACTUAL RESULT:
+Orders page loaded successfully with 1 orders displayed
+
+
+SCREENSHOT:
+D:\School\Software Testing\Group\Econmgroup2\ECOMMERCE_Shein_UI\ECOMMERCE _group\ECOMMERCE\web\reports\screenshots\view-orders-success.png
+
+====================================================
+
+
+====================================================
+TEST SUITE: Orders Test
+TEST CASE: Place an order successfully
+STATUS: FAILED
+TIME: 2026-05-28T20:13:53.188Z
+DURATION: 1.038s
+====================================================
+
+FUNCTIONALITIES VERIFIED:
+✔ Checkout workflow validation
+
+EXPECTED RESULT:
+Order should be placed successfully
+
+ACTUAL RESULT:
+Checkout process failed
+
+ERROR DETAILS:
+
+TypeError: addFirstProductToCart is not a function
+    at Object.addFirstProductToCart (D:\School\Software Testing\Group\Econmgroup2\ECOMMERCE_Shein_UI\ECOMMERCE _group\ECOMMERCE\web\tests\orders.test.js:136:19)
+    at processTicksAndRejections (node:internal/process/task_queues:104:5)
+
+POSSIBLE CAUSES:
+- Cart was empty
+- Checkout button not functioning
+- Payment processing failure
+- Backend API issue
+- Database order insert failure
+- Confirmation page not rendered
+- Session expired during checkout
+
+
+SCREENSHOT:
+D:\School\Software Testing\Group\Econmgroup2\ECOMMERCE_Shein_UI\ECOMMERCE _group\ECOMMERCE\web\reports\screenshots\place-order-failed.png
+
+====================================================
+
+
+====================================================
+TEST SUITE: Orders Test
+TEST CASE: Order appears in order history after checkout
+STATUS: FAILED
+TIME: 2026-05-28T20:13:54.278Z
+DURATION: 1.087s
+====================================================
+
+FUNCTIONALITIES VERIFIED:
+✔ Order history validation
+
+EXPECTED RESULT:
+Orders should appear in order history
+
+ACTUAL RESULT:
+No orders found in order history
+
+ERROR DETAILS:
+
+TypeError: addFirstProductToCart is not a function
+    at Object.addFirstProductToCart (D:\School\Software Testing\Group\Econmgroup2\ECOMMERCE_Shein_UI\ECOMMERCE _group\ECOMMERCE\web\tests\orders.test.js:214:19)
+    at processTicksAndRejections (node:internal/process/task_queues:104:5)
+
+POSSIBLE CAUSES:
+- Orders not saved to database
+- Orders API failed
+- Frontend rendering issue
+- Authentication issue
+- Order retrieval query failure
+
+
+SCREENSHOT:
+D:\School\Software Testing\Group\Econmgroup2\ECOMMERCE_Shein_UI\ECOMMERCE _group\ECOMMERCE\web\reports\screenshots\order-history-failed.png
+
+====================================================
+
+
+====================================================
+TEST SUITE: Login Test
+TEST CASE: Loads homepage correctly
+STATUS: FAILED
+TIME: 2026-05-28T20:13:58.240Z
+DURATION: 1.435s
+====================================================
+
+FUNCTIONALITIES VERIFIED:
+✔ Homepage accessibility validation
+
+EXPECTED RESULT:
+Homepage should load successfully
+
+ACTUAL RESULT:
+Homepage failed to load
+
+ERROR DETAILS:
+Error: expect(received).toContain(expected) // indexOf
+
+Expected substring: "ECOMMERCE"
+Received string:    "E-Commerce Store"
+    at Object.toContain (D:\School\Software Testing\Group\Econmgroup2\ECOMMERCE_Shein_UI\ECOMMERCE _group\ECOMMERCE\web\tests\login.test.js:38:27)
+    at processTicksAndRejections (node:internal/process/task_queues:104:5)
+
+SCREENSHOT:
+D:\School\Software Testing\Group\Econmgroup2\ECOMMERCE_Shein_UI\ECOMMERCE _group\ECOMMERCE\web\reports\screenshots\homepage-load-failed.png
+
+====================================================
+
+
+====================================================
+TEST SUITE: Login Test
+TEST CASE: Successful login with demo customer
+STATUS: PASSED
+TIME: 2026-05-28T20:13:59.525Z
+DURATION: 1.281s
+====================================================
+
+FUNCTIONALITIES VERIFIED:
+✔ Sign In button accessible
+✔ Demo login available
+✔ Customer authentication
+✔ Session creation
+✔ Username displayed
+
+EXPECTED RESULT:
+Alice should login successfully
+
+ACTUAL RESULT:
+Logged in as: Alice
+
+
+SCREENSHOT:
+D:\School\Software Testing\Group\Econmgroup2\ECOMMERCE_Shein_UI\ECOMMERCE _group\ECOMMERCE\web\reports\screenshots\customer-login-success.png
+
+====================================================
+
+
+====================================================
+TEST SUITE: Login Test
+TEST CASE: Failed login with invalid credentials
+STATUS: PASSED
+TIME: 2026-05-28T20:14:02.558Z
+DURATION: 3.03s
+====================================================
+
+FUNCTIONALITIES VERIFIED:
+✔ Login form validation
+✔ Invalid credential rejection
+✔ Authentication security
+
+EXPECTED RESULT:
+System should reject invalid credentials
+
+ACTUAL RESULT:
+Invalid login blocked successfully
+
+
+SCREENSHOT:
+D:\School\Software Testing\Group\Econmgroup2\ECOMMERCE_Shein_UI\ECOMMERCE _group\ECOMMERCE\web\reports\screenshots\invalid-login-validation.png
+
+====================================================
+
+
+====================================================
+TEST SUITE: Login Test
+TEST CASE: Successful admin login
+STATUS: PASSED
+TIME: 2026-05-28T20:14:03.638Z
+DURATION: 1.075s
+====================================================
+
+FUNCTIONALITIES VERIFIED:
+✔ Admin authentication
+✔ Admin session validation
+✔ Role verification
+
+EXPECTED RESULT:
+Admin should login successfully
+
+ACTUAL RESULT:
+Admin authenticated successfully
+
+
+SCREENSHOT:
+D:\School\Software Testing\Group\Econmgroup2\ECOMMERCE_Shein_UI\ECOMMERCE _group\ECOMMERCE\web\reports\screenshots\admin-login-success.png
+
+====================================================
+
+
+====================================================
+TEST SUITE: Cart Test
+TEST CASE: Add item to cart after login
+STATUS: FAILED
+TIME: 2026-05-28T20:14:06.418Z
+DURATION: 1.74s
+====================================================
+
+FUNCTIONALITIES VERIFIED:
+✔ Cart functionality validation
+
+EXPECTED RESULT:
+Item should be added to cart
+
+ACTUAL RESULT:
+Cart update failed
+
+ERROR DETAILS:
+TypeError: addFirstProductToCart is not a function
+    at Object.addFirstProductToCart (D:\School\Software Testing\Group\Econmgroup2\ECOMMERCE_Shein_UI\ECOMMERCE _group\ECOMMERCE\web\tests\cart.test.js:36:19)
+    at processTicksAndRejections (node:internal/process/task_queues:104:5)
+
+SCREENSHOT:
+D:\School\Software Testing\Group\Econmgroup2\ECOMMERCE_Shein_UI\ECOMMERCE _group\ECOMMERCE\web\reports\screenshots\cart-add-failed.png
+
+====================================================
+
+
+====================================================
+TEST SUITE: Products Test
+TEST CASE: Browse products on homepage
+STATUS: PASSED
+TIME: 2026-05-28T20:14:08.852Z
+DURATION: 1.498s
+====================================================
+
+FUNCTIONALITIES VERIFIED:
+✔ Product retrieval
+✔ Homepage rendering
+✔ Product card display
+
+EXPECTED RESULT:
+Country-selected homepage should display products
+
+ACTUAL RESULT:
+12 products displayed after selecting shopping country
+
+
+SCREENSHOT:
+D:\School\Software Testing\Group\Econmgroup2\ECOMMERCE_Shein_UI\ECOMMERCE _group\ECOMMERCE\web\reports\screenshots\products-loaded.png
+
+====================================================
+
+
+====================================================
+TEST SUITE: Admin Test
+TEST CASE: Admin login and access admin panel
+STATUS: FAILED
+TIME: 2026-05-28T20:14:22.037Z
+DURATION: 12.194s
+====================================================
+
+FUNCTIONALITIES VERIFIED:
+✔ Admin functionality validation
+
+EXPECTED RESULT:
+Admin dashboard should open
+
+ACTUAL RESULT:
+Admin dashboard inaccessible
+
+ERROR DETAILS:
+TimeoutError: Waiting for element to be located By(css selector, .adminDashboard)
+Wait timed out after 10115ms
+    at D:\School\Software Testing\Group\Econmgroup2\ECOMMERCE_Shein_UI\ECOMMERCE _group\ECOMMERCE\web\node_modules\selenium-webdriver\lib\webdriver.js:929:22
+    at processTicksAndRejections (node:internal/process/task_queues:104:5)
+
+SCREENSHOT:
+D:\School\Software Testing\Group\Econmgroup2\ECOMMERCE_Shein_UI\ECOMMERCE _group\ECOMMERCE\web\reports\screenshots\admin-panel-failed.png
+
+====================================================
+
+
+====================================================
+TEST SUITE: Orders Test
+TEST CASE: View orders after login
+STATUS: PASSED
+TIME: 2026-05-28T20:14:53.682Z
+DURATION: 2.039s
+====================================================
+
+FUNCTIONALITIES VERIFIED:
+✔ Customer authentication
+✔ Orders page navigation
+✔ Orders retrieval
+✔ Orders rendering
+✔ Authenticated order access
+
+EXPECTED RESULT:
+Orders page should display customer orders
+
+ACTUAL RESULT:
+Orders page loaded successfully with 1 orders displayed
+
+
+SCREENSHOT:
+D:\School\Software Testing\Group\Econmgroup2\ECOMMERCE_Shein_UI\ECOMMERCE _group\ECOMMERCE\web\reports\screenshots\view-orders-success.png
+
+====================================================
+
+
+====================================================
+TEST SUITE: Orders Test
+TEST CASE: Place an order successfully
+STATUS: PASSED
+TIME: 2026-05-28T20:14:57.187Z
+DURATION: 3.501s
+====================================================
+
+FUNCTIONALITIES VERIFIED:
+✔ Customer authentication
+✔ Shopping country selection
+✔ Product cart addition
+✔ Cart item selection
+✔ Shipping address capture
+✔ Payment method selection
+✔ Order review and confirmation
+✔ Purchase workflow completion
+
+EXPECTED RESULT:
+Customer should complete the full checkout workflow successfully
+
+ACTUAL RESULT:
+Order placed successfully. Confirmation message: Payment Successful!
+
+
+SCREENSHOT:
+D:\School\Software Testing\Group\Econmgroup2\ECOMMERCE_Shein_UI\ECOMMERCE _group\ECOMMERCE\web\reports\screenshots\place-order-success.png
+
+====================================================
+
+
+====================================================
+TEST SUITE: Orders Test
+TEST CASE: Order appears in order history after checkout
+STATUS: PASSED
+TIME: 2026-05-28T20:15:01.173Z
+DURATION: 3.983s
+====================================================
+
+FUNCTIONALITIES VERIFIED:
+✔ Order history retrieval
+✔ Database order persistence
+✔ Customer order history rendering
+
+EXPECTED RESULT:
+Placed orders should appear in history
+
+ACTUAL RESULT:
+3 orders found in customer history
+
+
+SCREENSHOT:
+D:\School\Software Testing\Group\Econmgroup2\ECOMMERCE_Shein_UI\ECOMMERCE _group\ECOMMERCE\web\reports\screenshots\order-history-success.png
+
+====================================================
+
+
+====================================================
+TEST SUITE: Admin Test
+TEST CASE: Admin login and access admin panel
+STATUS: FAILED
+TIME: 2026-05-28T20:15:16.564Z
+DURATION: 12s
+====================================================
+
+FUNCTIONALITIES VERIFIED:
+✔ Admin functionality validation
+
+EXPECTED RESULT:
+Admin dashboard should open
+
+ACTUAL RESULT:
+Admin dashboard inaccessible
+
+ERROR DETAILS:
+TimeoutError: Waiting for element to be located By(css selector, .pageAdmin)
+Wait timed out after 10080ms
+    at D:\School\Software Testing\Group\Econmgroup2\ECOMMERCE_Shein_UI\ECOMMERCE _group\ECOMMERCE\web\node_modules\selenium-webdriver\lib\webdriver.js:929:22
+    at processTicksAndRejections (node:internal/process/task_queues:104:5)
+
+SCREENSHOT:
+D:\School\Software Testing\Group\Econmgroup2\ECOMMERCE_Shein_UI\ECOMMERCE _group\ECOMMERCE\web\reports\screenshots\admin-panel-failed.png
+
+====================================================
+
+
+====================================================
+TEST SUITE: Login Test
+TEST CASE: Loads homepage correctly
+STATUS: PASSED
+TIME: 2026-05-28T20:15:19.212Z
+DURATION: 1.437s
+====================================================
+
+FUNCTIONALITIES VERIFIED:
+✔ Homepage accessible
+✔ Browser loaded frontend
+✔ Page title validation
+
+EXPECTED RESULT:
+Homepage should pass the country selection gate and title should contain E-Commerce
+
+ACTUAL RESULT:
+Country selected and page title loaded: E-Commerce Store
+
+
+SCREENSHOT:
+D:\School\Software Testing\Group\Econmgroup2\ECOMMERCE_Shein_UI\ECOMMERCE _group\ECOMMERCE\web\reports\screenshots\homepage-loaded.png
+
+====================================================
+
+
+====================================================
+TEST SUITE: Login Test
+TEST CASE: Successful login with demo customer
+STATUS: PASSED
+TIME: 2026-05-28T20:15:20.448Z
+DURATION: 1.232s
+====================================================
+
+FUNCTIONALITIES VERIFIED:
+✔ Sign In button accessible
+✔ Demo login available
+✔ Customer authentication
+✔ Session creation
+✔ Username displayed
+
+EXPECTED RESULT:
+Alice should login successfully
+
+ACTUAL RESULT:
+Logged in as: Alice
+
+
+SCREENSHOT:
+D:\School\Software Testing\Group\Econmgroup2\ECOMMERCE_Shein_UI\ECOMMERCE _group\ECOMMERCE\web\reports\screenshots\customer-login-success.png
+
+====================================================
+
+
+====================================================
+TEST SUITE: Login Test
+TEST CASE: Failed login with invalid credentials
+STATUS: PASSED
+TIME: 2026-05-28T20:15:23.446Z
+DURATION: 2.994s
+====================================================
+
+FUNCTIONALITIES VERIFIED:
+✔ Login form validation
+✔ Invalid credential rejection
+✔ Authentication security
+
+EXPECTED RESULT:
+System should reject invalid credentials
+
+ACTUAL RESULT:
+Invalid login blocked successfully
+
+
+SCREENSHOT:
+D:\School\Software Testing\Group\Econmgroup2\ECOMMERCE_Shein_UI\ECOMMERCE _group\ECOMMERCE\web\reports\screenshots\invalid-login-validation.png
+
+====================================================
+
+
+====================================================
+TEST SUITE: Login Test
+TEST CASE: Successful admin login
+STATUS: PASSED
+TIME: 2026-05-28T20:15:24.603Z
+DURATION: 1.154s
+====================================================
+
+FUNCTIONALITIES VERIFIED:
+✔ Admin authentication
+✔ Admin session validation
+✔ Role verification
+
+EXPECTED RESULT:
+Admin should login successfully
+
+ACTUAL RESULT:
+Admin authenticated successfully
+
+
+SCREENSHOT:
+D:\School\Software Testing\Group\Econmgroup2\ECOMMERCE_Shein_UI\ECOMMERCE _group\ECOMMERCE\web\reports\screenshots\admin-login-success.png
+
+====================================================
+
+
+====================================================
+TEST SUITE: Cart Test
+TEST CASE: Add item to cart after login
+STATUS: PASSED
+TIME: 2026-05-28T20:15:27.714Z
+DURATION: 2.134s
+====================================================
+
+FUNCTIONALITIES VERIFIED:
+✔ Customer login
+✔ Cart addition
+✔ Cart quantity update
+✔ Cart badge rendering
+
+EXPECTED RESULT:
+Cart badge should display at least 1 item
+
+ACTUAL RESULT:
+Cart badge displayed: 1
+
+
+SCREENSHOT:
+D:\School\Software Testing\Group\Econmgroup2\ECOMMERCE_Shein_UI\ECOMMERCE _group\ECOMMERCE\web\reports\screenshots\cart-added-success.png
+
+====================================================
+
+
+====================================================
+TEST SUITE: Products Test
+TEST CASE: Browse products on homepage
+STATUS: PASSED
+TIME: 2026-05-28T20:15:30.238Z
+DURATION: 1.535s
+====================================================
+
+FUNCTIONALITIES VERIFIED:
+✔ Product retrieval
+✔ Homepage rendering
+✔ Product card display
+
+EXPECTED RESULT:
+Country-selected homepage should display products
+
+ACTUAL RESULT:
+12 products displayed after selecting shopping country
+
+
+SCREENSHOT:
+D:\School\Software Testing\Group\Econmgroup2\ECOMMERCE_Shein_UI\ECOMMERCE _group\ECOMMERCE\web\reports\screenshots\products-loaded.png
+
+====================================================
+
+
+====================================================
+TEST SUITE: Admin Test
+TEST CASE: Admin login and access admin panel
+STATUS: PASSED
+TIME: 2026-05-28T20:16:34.570Z
+DURATION: 2.303s
+====================================================
+
+FUNCTIONALITIES VERIFIED:
+✔ Admin authentication
+✔ Admin navigation
+✔ Admin dashboard rendering
+✔ Role access control
+
+EXPECTED RESULT:
+Admin dashboard should load
+
+ACTUAL RESULT:
+Admin dashboard loaded successfully
+
+
+SCREENSHOT:
+D:\School\Software Testing\Group\Econmgroup2\ECOMMERCE_Shein_UI\ECOMMERCE _group\ECOMMERCE\web\reports\screenshots\admin-panel-success.png
+
+====================================================
+
+
+====================================================
+TEST SUITE: Orders Test
+TEST CASE: View orders after login
+STATUS: PASSED
+TIME: 2026-05-28T20:16:37.376Z
+DURATION: 1.833s
+====================================================
+
+FUNCTIONALITIES VERIFIED:
+✔ Customer authentication
+✔ Orders page navigation
+✔ Orders retrieval
+✔ Orders rendering
+✔ Authenticated order access
+
+EXPECTED RESULT:
+Orders page should display customer orders
+
+ACTUAL RESULT:
+Orders page loaded successfully with 3 orders displayed
+
+
+SCREENSHOT:
+D:\School\Software Testing\Group\Econmgroup2\ECOMMERCE_Shein_UI\ECOMMERCE _group\ECOMMERCE\web\reports\screenshots\view-orders-success.png
+
+====================================================
+
+
+====================================================
+TEST SUITE: Orders Test
+TEST CASE: Place an order successfully
+STATUS: FAILED
+TIME: 2026-05-28T20:16:41.353Z
+DURATION: 3.972s
+====================================================
+
+FUNCTIONALITIES VERIFIED:
+✔ Checkout workflow validation
+
+EXPECTED RESULT:
+Order should be placed successfully
+
+ACTUAL RESULT:
+Checkout process failed
+
+ERROR DETAILS:
+
+Error: expect(received).toBeGreaterThan(expected)
+
+Expected: > 0
+Received:   0
+    at Object.toBeGreaterThan (D:\School\Software Testing\Group\Econmgroup2\ECOMMERCE_Shein_UI\ECOMMERCE _group\ECOMMERCE\web\tests\orders.test.js:141:45)
+    at processTicksAndRejections (node:internal/process/task_queues:104:5)
+
+POSSIBLE CAUSES:
+- Cart was empty
+- Checkout button not functioning
+- Payment processing failure
+- Backend API issue
+- Database order insert failure
+- Confirmation page not rendered
+- Session expired during checkout
+
+
+SCREENSHOT:
+D:\School\Software Testing\Group\Econmgroup2\ECOMMERCE_Shein_UI\ECOMMERCE _group\ECOMMERCE\web\reports\screenshots\place-order-failed.png
+
+====================================================
+
+
+====================================================
+TEST SUITE: Orders Test
+TEST CASE: Order appears in order history after checkout
+STATUS: PASSED
+TIME: 2026-05-28T20:16:45.329Z
+DURATION: 3.972s
+====================================================
+
+FUNCTIONALITIES VERIFIED:
+✔ Order history retrieval
+✔ Database order persistence
+✔ Customer order history rendering
+
+EXPECTED RESULT:
+Placed orders should appear in history
+
+ACTUAL RESULT:
+5 orders found in customer history
+
+
+SCREENSHOT:
+D:\School\Software Testing\Group\Econmgroup2\ECOMMERCE_Shein_UI\ECOMMERCE _group\ECOMMERCE\web\reports\screenshots\order-history-success.png
+
+====================================================
+
+
+====================================================
+TEST SUITE: Login Test
+TEST CASE: Loads homepage correctly
+STATUS: PASSED
+TIME: 2026-05-28T20:16:49.006Z
+DURATION: 1.715s
+====================================================
+
+FUNCTIONALITIES VERIFIED:
+✔ Homepage accessible
+✔ Browser loaded frontend
+✔ Page title validation
+
+EXPECTED RESULT:
+Homepage should pass the country selection gate and title should contain E-Commerce
+
+ACTUAL RESULT:
+Country selected and page title loaded: E-Commerce Store
+
+
+SCREENSHOT:
+D:\School\Software Testing\Group\Econmgroup2\ECOMMERCE_Shein_UI\ECOMMERCE _group\ECOMMERCE\web\reports\screenshots\homepage-loaded.png
+
+====================================================
+
+
+====================================================
+TEST SUITE: Login Test
+TEST CASE: Successful login with demo customer
+STATUS: PASSED
+TIME: 2026-05-28T20:16:50.391Z
+DURATION: 1.382s
+====================================================
+
+FUNCTIONALITIES VERIFIED:
+✔ Sign In button accessible
+✔ Demo login available
+✔ Customer authentication
+✔ Session creation
+✔ Username displayed
+
+EXPECTED RESULT:
+Alice should login successfully
+
+ACTUAL RESULT:
+Logged in as: Alice
+
+
+SCREENSHOT:
+D:\School\Software Testing\Group\Econmgroup2\ECOMMERCE_Shein_UI\ECOMMERCE _group\ECOMMERCE\web\reports\screenshots\customer-login-success.png
+
+====================================================
+
+
+====================================================
+TEST SUITE: Login Test
+TEST CASE: Failed login with invalid credentials
+STATUS: PASSED
+TIME: 2026-05-28T20:16:53.701Z
+DURATION: 3.306s
+====================================================
+
+FUNCTIONALITIES VERIFIED:
+✔ Login form validation
+✔ Invalid credential rejection
+✔ Authentication security
+
+EXPECTED RESULT:
+System should reject invalid credentials
+
+ACTUAL RESULT:
+Invalid login blocked successfully
+
+
+SCREENSHOT:
+D:\School\Software Testing\Group\Econmgroup2\ECOMMERCE_Shein_UI\ECOMMERCE _group\ECOMMERCE\web\reports\screenshots\invalid-login-validation.png
+
+====================================================
+
+
+====================================================
+TEST SUITE: Login Test
+TEST CASE: Successful admin login
+STATUS: PASSED
+TIME: 2026-05-28T20:16:55.268Z
+DURATION: 1.564s
+====================================================
+
+FUNCTIONALITIES VERIFIED:
+✔ Admin authentication
+✔ Admin session validation
+✔ Role verification
+
+EXPECTED RESULT:
+Admin should login successfully
+
+ACTUAL RESULT:
+Admin authenticated successfully
+
+
+SCREENSHOT:
+D:\School\Software Testing\Group\Econmgroup2\ECOMMERCE_Shein_UI\ECOMMERCE _group\ECOMMERCE\web\reports\screenshots\admin-login-success.png
+
+====================================================
+
+
+====================================================
+TEST SUITE: Cart Test
+TEST CASE: Add item to cart after login
+STATUS: PASSED
+TIME: 2026-05-28T20:16:58.170Z
+DURATION: 1.909s
+====================================================
+
+FUNCTIONALITIES VERIFIED:
+✔ Customer login
+✔ Cart addition
+✔ Cart quantity update
+✔ Cart badge rendering
+
+EXPECTED RESULT:
+Cart badge should display at least 1 item
+
+ACTUAL RESULT:
+Cart badge displayed: 1
+
+
+SCREENSHOT:
+D:\School\Software Testing\Group\Econmgroup2\ECOMMERCE_Shein_UI\ECOMMERCE _group\ECOMMERCE\web\reports\screenshots\cart-added-success.png
+
+====================================================
+
+
+====================================================
+TEST SUITE: Products Test
+TEST CASE: Browse products on homepage
+STATUS: PASSED
+TIME: 2026-05-28T20:17:00.774Z
+DURATION: 1.62s
+====================================================
+
+FUNCTIONALITIES VERIFIED:
+✔ Product retrieval
+✔ Homepage rendering
+✔ Product card display
+
+EXPECTED RESULT:
+Country-selected homepage should display products
+
+ACTUAL RESULT:
+12 products displayed after selecting shopping country
+
+
+SCREENSHOT:
+D:\School\Software Testing\Group\Econmgroup2\ECOMMERCE_Shein_UI\ECOMMERCE _group\ECOMMERCE\web\reports\screenshots\products-loaded.png
+
+====================================================
+
+
+====================================================
+TEST SUITE: Orders Test
+TEST CASE: View orders after login
+STATUS: PASSED
+TIME: 2026-05-28T20:17:20.892Z
+DURATION: 2.119s
+====================================================
+
+FUNCTIONALITIES VERIFIED:
+✔ Customer authentication
+✔ Orders page navigation
+✔ Orders retrieval
+✔ Orders rendering
+✔ Authenticated order access
+
+EXPECTED RESULT:
+Orders page should display customer orders
+
+ACTUAL RESULT:
+Orders page loaded successfully with 5 orders displayed
+
+
+SCREENSHOT:
+D:\School\Software Testing\Group\Econmgroup2\ECOMMERCE_Shein_UI\ECOMMERCE _group\ECOMMERCE\web\reports\screenshots\view-orders-success.png
+
+====================================================
+
+
+====================================================
+TEST SUITE: Orders Test
+TEST CASE: Place an order successfully
+STATUS: FAILED
+TIME: 2026-05-28T20:17:24.118Z
+DURATION: 3.219s
+====================================================
+
+FUNCTIONALITIES VERIFIED:
+✔ Checkout workflow validation
+
+EXPECTED RESULT:
+Order should be placed successfully
+
+ACTUAL RESULT:
+Checkout process failed
+
+ERROR DETAILS:
+
+Error: expect(received).toBeGreaterThan(expected)
+
+Expected: > 0
+Received:   0
+    at Object.toBeGreaterThan (D:\School\Software Testing\Group\Econmgroup2\ECOMMERCE_Shein_UI\ECOMMERCE _group\ECOMMERCE\web\tests\orders.test.js:141:45)
+    at processTicksAndRejections (node:internal/process/task_queues:104:5)
+
+POSSIBLE CAUSES:
+- Cart was empty
+- Checkout button not functioning
+- Payment processing failure
+- Backend API issue
+- Database order insert failure
+- Confirmation page not rendered
+- Session expired during checkout
+
+
+SCREENSHOT:
+D:\School\Software Testing\Group\Econmgroup2\ECOMMERCE_Shein_UI\ECOMMERCE _group\ECOMMERCE\web\reports\screenshots\place-order-failed.png
+
+====================================================
+
+
+====================================================
+TEST SUITE: Orders Test
+TEST CASE: Order appears in order history after checkout
+STATUS: PASSED
+TIME: 2026-05-28T20:17:28.244Z
+DURATION: 4.122s
+====================================================
+
+FUNCTIONALITIES VERIFIED:
+✔ Order history retrieval
+✔ Database order persistence
+✔ Customer order history rendering
+
+EXPECTED RESULT:
+Placed orders should appear in history
+
+ACTUAL RESULT:
+7 orders found in customer history
+
+
+SCREENSHOT:
+D:\School\Software Testing\Group\Econmgroup2\ECOMMERCE_Shein_UI\ECOMMERCE _group\ECOMMERCE\web\reports\screenshots\order-history-success.png
+
+====================================================
+
+
+====================================================
+TEST SUITE: Login Test
+TEST CASE: Loads homepage correctly
+STATUS: PASSED
+TIME: 2026-05-28T20:17:31.351Z
+DURATION: 1.728s
+====================================================
+
+FUNCTIONALITIES VERIFIED:
+✔ Homepage accessible
+✔ Browser loaded frontend
+✔ Page title validation
+
+EXPECTED RESULT:
+Homepage should pass the country selection gate and title should contain E-Commerce
+
+ACTUAL RESULT:
+Country selected and page title loaded: E-Commerce Store
+
+
+SCREENSHOT:
+D:\School\Software Testing\Group\Econmgroup2\ECOMMERCE_Shein_UI\ECOMMERCE _group\ECOMMERCE\web\reports\screenshots\homepage-loaded.png
+
+====================================================
+
+
+====================================================
+TEST SUITE: Login Test
+TEST CASE: Successful login with demo customer
+STATUS: PASSED
+TIME: 2026-05-28T20:17:32.634Z
+DURATION: 1.279s
+====================================================
+
+FUNCTIONALITIES VERIFIED:
+✔ Sign In button accessible
+✔ Demo login available
+✔ Customer authentication
+✔ Session creation
+✔ Username displayed
+
+EXPECTED RESULT:
+Alice should login successfully
+
+ACTUAL RESULT:
+Logged in as: Alice
+
+
+SCREENSHOT:
+D:\School\Software Testing\Group\Econmgroup2\ECOMMERCE_Shein_UI\ECOMMERCE _group\ECOMMERCE\web\reports\screenshots\customer-login-success.png
+
+====================================================
+
+
+====================================================
+TEST SUITE: Login Test
+TEST CASE: Failed login with invalid credentials
+STATUS: PASSED
+TIME: 2026-05-28T20:17:35.866Z
+DURATION: 3.229s
+====================================================
+
+FUNCTIONALITIES VERIFIED:
+✔ Login form validation
+✔ Invalid credential rejection
+✔ Authentication security
+
+EXPECTED RESULT:
+System should reject invalid credentials
+
+ACTUAL RESULT:
+Invalid login blocked successfully
+
+
+SCREENSHOT:
+D:\School\Software Testing\Group\Econmgroup2\ECOMMERCE_Shein_UI\ECOMMERCE _group\ECOMMERCE\web\reports\screenshots\invalid-login-validation.png
+
+====================================================
+
+
+====================================================
+TEST SUITE: Login Test
+TEST CASE: Successful admin login
+STATUS: PASSED
+TIME: 2026-05-28T20:17:37.185Z
+DURATION: 1.315s
+====================================================
+
+FUNCTIONALITIES VERIFIED:
+✔ Admin authentication
+✔ Admin session validation
+✔ Role verification
+
+EXPECTED RESULT:
+Admin should login successfully
+
+ACTUAL RESULT:
+Admin authenticated successfully
+
+
+SCREENSHOT:
+D:\School\Software Testing\Group\Econmgroup2\ECOMMERCE_Shein_UI\ECOMMERCE _group\ECOMMERCE\web\reports\screenshots\admin-login-success.png
+
+====================================================
+
+
+====================================================
+TEST SUITE: Admin Test
+TEST CASE: Admin login and access admin panel
+STATUS: PASSED
+TIME: 2026-05-28T20:17:40.737Z
+DURATION: 2.546s
+====================================================
+
+FUNCTIONALITIES VERIFIED:
+✔ Admin authentication
+✔ Admin navigation
+✔ Admin dashboard rendering
+✔ Role access control
+
+EXPECTED RESULT:
+Admin dashboard should load
+
+ACTUAL RESULT:
+Admin dashboard loaded successfully
+
+
+SCREENSHOT:
+D:\School\Software Testing\Group\Econmgroup2\ECOMMERCE_Shein_UI\ECOMMERCE _group\ECOMMERCE\web\reports\screenshots\admin-panel-success.png
+
+====================================================
+
+
+====================================================
+TEST SUITE: Cart Test
+TEST CASE: Add item to cart after login
+STATUS: PASSED
+TIME: 2026-05-28T20:17:44.377Z
+DURATION: 2.454s
+====================================================
+
+FUNCTIONALITIES VERIFIED:
+✔ Customer login
+✔ Cart addition
+✔ Cart quantity update
+✔ Cart badge rendering
+
+EXPECTED RESULT:
+Cart badge should display at least 1 item
+
+ACTUAL RESULT:
+Cart badge displayed: 1
+
+
+SCREENSHOT:
+D:\School\Software Testing\Group\Econmgroup2\ECOMMERCE_Shein_UI\ECOMMERCE _group\ECOMMERCE\web\reports\screenshots\cart-added-success.png
+
+====================================================
+
+
+====================================================
+TEST SUITE: Products Test
+TEST CASE: Browse products on homepage
+STATUS: PASSED
+TIME: 2026-05-28T20:17:47.115Z
+DURATION: 1.658s
+====================================================
+
+FUNCTIONALITIES VERIFIED:
+✔ Product retrieval
+✔ Homepage rendering
+✔ Product card display
+
+EXPECTED RESULT:
+Country-selected homepage should display products
+
+ACTUAL RESULT:
+12 products displayed after selecting shopping country
+
+
+SCREENSHOT:
+D:\School\Software Testing\Group\Econmgroup2\ECOMMERCE_Shein_UI\ECOMMERCE _group\ECOMMERCE\web\reports\screenshots\products-loaded.png
+
+====================================================
+
+
+====================================================
+TEST SUITE: Orders Test
+TEST CASE: View orders after login
+STATUS: PASSED
+TIME: 2026-05-28T20:18:04.317Z
+DURATION: 2.73s
+====================================================
+
+FUNCTIONALITIES VERIFIED:
+✔ Customer authentication
+✔ Orders page navigation
+✔ Orders retrieval
+✔ Orders rendering
+✔ Authenticated order access
+
+EXPECTED RESULT:
+Orders page should display customer orders
+
+ACTUAL RESULT:
+Orders page loaded successfully with 7 orders displayed
+
+
+SCREENSHOT:
+D:\School\Software Testing\Group\Econmgroup2\ECOMMERCE_Shein_UI\ECOMMERCE _group\ECOMMERCE\web\reports\screenshots\view-orders-success.png
+
+====================================================
+
+
+====================================================
+TEST SUITE: Orders Test
+TEST CASE: Place an order successfully
+STATUS: FAILED
+TIME: 2026-05-28T20:18:08.591Z
+DURATION: 4.265s
+====================================================
+
+FUNCTIONALITIES VERIFIED:
+✔ Checkout workflow validation
+
+EXPECTED RESULT:
+Order should be placed successfully
+
+ACTUAL RESULT:
+Checkout process failed
+
+ERROR DETAILS:
+
+Error: expect(received).toBe(expected) // Object.is equality
+
+Expected: true
+Received: false
+    at Object.toBe (D:\School\Software Testing\Group\Econmgroup2\ECOMMERCE_Shein_UI\ECOMMERCE _group\ECOMMERCE\web\tests\orders.test.js:139:61)
+    at processTicksAndRejections (node:internal/process/task_queues:104:5)
+
+POSSIBLE CAUSES:
+- Cart was empty
+- Checkout button not functioning
+- Payment processing failure
+- Backend API issue
+- Database order insert failure
+- Confirmation page not rendered
+- Session expired during checkout
+
+
+SCREENSHOT:
+D:\School\Software Testing\Group\Econmgroup2\ECOMMERCE_Shein_UI\ECOMMERCE _group\ECOMMERCE\web\reports\screenshots\place-order-failed.png
+
+====================================================
+
+
+====================================================
+TEST SUITE: Orders Test
+TEST CASE: Order appears in order history after checkout
+STATUS: PASSED
+TIME: 2026-05-28T20:18:12.833Z
+DURATION: 4.234s
+====================================================
+
+FUNCTIONALITIES VERIFIED:
+✔ Order history retrieval
+✔ Database order persistence
+✔ Customer order history rendering
+
+EXPECTED RESULT:
+Placed orders should appear in history
+
+ACTUAL RESULT:
+9 orders found in customer history
+
+
+SCREENSHOT:
+D:\School\Software Testing\Group\Econmgroup2\ECOMMERCE_Shein_UI\ECOMMERCE _group\ECOMMERCE\web\reports\screenshots\order-history-success.png
+
+====================================================
+
+
+====================================================
+TEST SUITE: Login Test
+TEST CASE: Loads homepage correctly
+STATUS: PASSED
+TIME: 2026-05-28T20:18:16.982Z
+DURATION: 1.559s
+====================================================
+
+FUNCTIONALITIES VERIFIED:
+✔ Homepage accessible
+✔ Browser loaded frontend
+✔ Page title validation
+
+EXPECTED RESULT:
+Homepage should pass the country selection gate and title should contain E-Commerce
+
+ACTUAL RESULT:
+Country selected and page title loaded: E-Commerce Store
+
+
+SCREENSHOT:
+D:\School\Software Testing\Group\Econmgroup2\ECOMMERCE_Shein_UI\ECOMMERCE _group\ECOMMERCE\web\reports\screenshots\homepage-loaded.png
+
+====================================================
+
+
+====================================================
+TEST SUITE: Login Test
+TEST CASE: Successful login with demo customer
+STATUS: PASSED
+TIME: 2026-05-28T20:18:18.664Z
+DURATION: 1.678s
+====================================================
+
+FUNCTIONALITIES VERIFIED:
+✔ Sign In button accessible
+✔ Demo login available
+✔ Customer authentication
+✔ Session creation
+✔ Username displayed
+
+EXPECTED RESULT:
+Alice should login successfully
+
+ACTUAL RESULT:
+Logged in as: Alice
+
+
+SCREENSHOT:
+D:\School\Software Testing\Group\Econmgroup2\ECOMMERCE_Shein_UI\ECOMMERCE _group\ECOMMERCE\web\reports\screenshots\customer-login-success.png
+
+====================================================
+
+
+====================================================
+TEST SUITE: Login Test
+TEST CASE: Failed login with invalid credentials
+STATUS: PASSED
+TIME: 2026-05-28T20:18:22.039Z
+DURATION: 3.372s
+====================================================
+
+FUNCTIONALITIES VERIFIED:
+✔ Login form validation
+✔ Invalid credential rejection
+✔ Authentication security
+
+EXPECTED RESULT:
+System should reject invalid credentials
+
+ACTUAL RESULT:
+Invalid login blocked successfully
+
+
+SCREENSHOT:
+D:\School\Software Testing\Group\Econmgroup2\ECOMMERCE_Shein_UI\ECOMMERCE _group\ECOMMERCE\web\reports\screenshots\invalid-login-validation.png
+
+====================================================
+
+
+====================================================
+TEST SUITE: Login Test
+TEST CASE: Successful admin login
+STATUS: PASSED
+TIME: 2026-05-28T20:18:23.235Z
+DURATION: 1.191s
+====================================================
+
+FUNCTIONALITIES VERIFIED:
+✔ Admin authentication
+✔ Admin session validation
+✔ Role verification
+
+EXPECTED RESULT:
+Admin should login successfully
+
+ACTUAL RESULT:
+Admin authenticated successfully
+
+
+SCREENSHOT:
+D:\School\Software Testing\Group\Econmgroup2\ECOMMERCE_Shein_UI\ECOMMERCE _group\ECOMMERCE\web\reports\screenshots\admin-login-success.png
+
+====================================================
+
+
+====================================================
+TEST SUITE: Admin Test
+TEST CASE: Admin login and access admin panel
+STATUS: PASSED
+TIME: 2026-05-28T20:18:26.193Z
+DURATION: 1.893s
+====================================================
+
+FUNCTIONALITIES VERIFIED:
+✔ Admin authentication
+✔ Admin navigation
+✔ Admin dashboard rendering
+✔ Role access control
+
+EXPECTED RESULT:
+Admin dashboard should load
+
+ACTUAL RESULT:
+Admin dashboard loaded successfully
+
+
+SCREENSHOT:
+D:\School\Software Testing\Group\Econmgroup2\ECOMMERCE_Shein_UI\ECOMMERCE _group\ECOMMERCE\web\reports\screenshots\admin-panel-success.png
+
+====================================================
+
+
+====================================================
+TEST SUITE: Cart Test
+TEST CASE: Add item to cart after login
+STATUS: PASSED
+TIME: 2026-05-28T20:18:29.246Z
+DURATION: 2.125s
+====================================================
+
+FUNCTIONALITIES VERIFIED:
+✔ Customer login
+✔ Cart addition
+✔ Cart quantity update
+✔ Cart badge rendering
+
+EXPECTED RESULT:
+Cart badge should display at least 1 item
+
+ACTUAL RESULT:
+Cart badge displayed: 1
+
+
+SCREENSHOT:
+D:\School\Software Testing\Group\Econmgroup2\ECOMMERCE_Shein_UI\ECOMMERCE _group\ECOMMERCE\web\reports\screenshots\cart-added-success.png
+
+====================================================
+
+
+====================================================
+TEST SUITE: Products Test
+TEST CASE: Browse products on homepage
+STATUS: PASSED
+TIME: 2026-05-28T20:18:31.887Z
+DURATION: 1.64s
+====================================================
+
+FUNCTIONALITIES VERIFIED:
+✔ Product retrieval
+✔ Homepage rendering
+✔ Product card display
+
+EXPECTED RESULT:
+Country-selected homepage should display products
+
+ACTUAL RESULT:
+12 products displayed after selecting shopping country
+
+
+SCREENSHOT:
+D:\School\Software Testing\Group\Econmgroup2\ECOMMERCE_Shein_UI\ECOMMERCE _group\ECOMMERCE\web\reports\screenshots\products-loaded.png
+
+====================================================
+

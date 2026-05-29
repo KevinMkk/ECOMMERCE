@@ -1,0 +1,39 @@
+
+====================================================
+TEST SUITE: Orders Test
+TEST CASE: Place an order successfully
+STATUS: FAILED
+TIME: 2026-05-28T20:13:53.188Z
+DURATION: 1.038s
+====================================================
+
+FUNCTIONALITIES VERIFIED:
+✔ Checkout workflow validation
+
+EXPECTED RESULT:
+Order should be placed successfully
+
+ACTUAL RESULT:
+Checkout process failed
+
+ERROR DETAILS:
+
+TypeError: addFirstProductToCart is not a function
+    at Object.addFirstProductToCart (D:\School\Software Testing\Group\Econmgroup2\ECOMMERCE_Shein_UI\ECOMMERCE _group\ECOMMERCE\web\tests\orders.test.js:136:19)
+    at processTicksAndRejections (node:internal/process/task_queues:104:5)
+
+POSSIBLE CAUSES:
+- Cart was empty
+- Checkout button not functioning
+- Payment processing failure
+- Backend API issue
+- Database order insert failure
+- Confirmation page not rendered
+- Session expired during checkout
+
+
+SCREENSHOT:
+D:\School\Software Testing\Group\Econmgroup2\ECOMMERCE_Shein_UI\ECOMMERCE _group\ECOMMERCE\web\reports\screenshots\place-order-failed.png
+
+====================================================
+

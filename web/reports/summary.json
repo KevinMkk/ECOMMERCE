@@ -1,0 +1,542 @@
+[
+  {
+    "suite": "Orders Test",
+    "testName": "View orders after login",
+    "status": "FAILED",
+    "time": "2026-05-28T19:16:38.751Z",
+    "duration": "11.141s",
+    "reportFile": "Orders_Test__View_orders_after_login__2026-05-28T19_16_38.751Z.txt",
+    "screenshot": "D:\\School\\Software Testing\\Group\\Econmgroup2\\ECOMMERCE_Shein_UI\\ECOMMERCE _group\\ECOMMERCE\\web\\reports\\screenshots\\view-orders-failed.png"
+  },
+  {
+    "suite": "Orders Test",
+    "testName": "Place an order successfully",
+    "status": "FAILED",
+    "time": "2026-05-28T19:16:49.057Z",
+    "duration": "10.299s",
+    "reportFile": "Orders_Test__Place_an_order_successfully__2026-05-28T19_16_49.057Z.txt",
+    "screenshot": "D:\\School\\Software Testing\\Group\\Econmgroup2\\ECOMMERCE_Shein_UI\\ECOMMERCE _group\\ECOMMERCE\\web\\reports\\screenshots\\place-order-failed.png"
+  },
+  {
+    "suite": "Orders Test",
+    "testName": "Order appears in order history after checkout",
+    "status": "FAILED",
+    "time": "2026-05-28T19:16:59.579Z",
+    "duration": "10.518s",
+    "reportFile": "Orders_Test__Order_appears_in_order_history_after_checkout__2026-05-28T19_16_59.579Z.txt",
+    "screenshot": "D:\\School\\Software Testing\\Group\\Econmgroup2\\ECOMMERCE_Shein_UI\\ECOMMERCE _group\\ECOMMERCE\\web\\reports\\screenshots\\order-history-failed.png"
+  },
+  {
+    "suite": "Login Test",
+    "testName": "Loads homepage correctly",
+    "status": "FAILED",
+    "time": "2026-05-28T19:17:02.151Z",
+    "duration": "1.089s",
+    "reportFile": "Login_Test__Loads_homepage_correctly__2026-05-28T19_17_02.151Z.txt",
+    "screenshot": "D:\\School\\Software Testing\\Group\\Econmgroup2\\ECOMMERCE_Shein_UI\\ECOMMERCE _group\\ECOMMERCE\\web\\reports\\screenshots\\homepage-load-failed.png"
+  },
+  {
+    "suite": "Login Test",
+    "testName": "Successful login with demo customer",
+    "status": "FAILED",
+    "time": "2026-05-28T19:17:12.443Z",
+    "duration": "10.287s",
+    "reportFile": "Login_Test__Successful_login_with_demo_customer__2026-05-28T19_17_12.443Z.txt",
+    "screenshot": "D:\\School\\Software Testing\\Group\\Econmgroup2\\ECOMMERCE_Shein_UI\\ECOMMERCE _group\\ECOMMERCE\\web\\reports\\screenshots\\customer-login-failed.png"
+  },
+  {
+    "suite": "Login Test",
+    "testName": "Failed login with invalid credentials",
+    "status": "FAILED",
+    "time": "2026-05-28T19:17:23.061Z",
+    "duration": "10.614s",
+    "reportFile": "Login_Test__Failed_login_with_invalid_credentials__2026-05-28T19_17_23.061Z.txt",
+    "screenshot": "D:\\School\\Software Testing\\Group\\Econmgroup2\\ECOMMERCE_Shein_UI\\ECOMMERCE _group\\ECOMMERCE\\web\\reports\\screenshots\\invalid-login-failure.png"
+  },
+  {
+    "suite": "Login Test",
+    "testName": "Successful admin login",
+    "status": "FAILED",
+    "time": "2026-05-28T19:17:33.496Z",
+    "duration": "10.341s",
+    "reportFile": "Login_Test__Successful_admin_login__2026-05-28T19_17_33.496Z.txt",
+    "screenshot": "D:\\School\\Software Testing\\Group\\Econmgroup2\\ECOMMERCE_Shein_UI\\ECOMMERCE _group\\ECOMMERCE\\web\\reports\\screenshots\\admin-login-failure.png"
+  },
+  {
+    "suite": "Admin Test",
+    "testName": "Admin login and access admin panel",
+    "status": "FAILED",
+    "time": "2026-05-28T19:17:45.377Z",
+    "duration": "10.824s",
+    "reportFile": "Admin_Test__Admin_login_and_access_admin_panel__2026-05-28T19_17_45.377Z.txt",
+    "screenshot": "D:\\School\\Software Testing\\Group\\Econmgroup2\\ECOMMERCE_Shein_UI\\ECOMMERCE _group\\ECOMMERCE\\web\\reports\\screenshots\\admin-panel-failed.png"
+  },
+  {
+    "suite": "Cart Test",
+    "testName": "Add item to cart after login",
+    "status": "FAILED",
+    "time": "2026-05-28T19:17:57.777Z",
+    "duration": "10.902s",
+    "reportFile": "Cart_Test__Add_item_to_cart_after_login__2026-05-28T19_17_57.777Z.txt",
+    "screenshot": "D:\\School\\Software Testing\\Group\\Econmgroup2\\ECOMMERCE_Shein_UI\\ECOMMERCE _group\\ECOMMERCE\\web\\reports\\screenshots\\cart-add-failed.png"
+  },
+  {
+    "suite": "Products Test",
+    "testName": "Browse products on homepage",
+    "status": "FAILED",
+    "time": "2026-05-28T19:18:09.827Z",
+    "duration": "10.924s",
+    "reportFile": "Products_Test__Browse_products_on_homepage__2026-05-28T19_18_09.827Z.txt",
+    "screenshot": "D:\\School\\Software Testing\\Group\\Econmgroup2\\ECOMMERCE_Shein_UI\\ECOMMERCE _group\\ECOMMERCE\\web\\reports\\screenshots\\products-load-failed.png"
+  },
+  {
+    "suite": "Orders Test",
+    "testName": "View orders after login",
+    "status": "PASSED",
+    "time": "2026-05-28T20:13:52.130Z",
+    "duration": "3.415s",
+    "reportFile": "Orders_Test__View_orders_after_login__2026-05-28T20_13_52.130Z.txt",
+    "screenshot": "D:\\School\\Software Testing\\Group\\Econmgroup2\\ECOMMERCE_Shein_UI\\ECOMMERCE _group\\ECOMMERCE\\web\\reports\\screenshots\\view-orders-success.png"
+  },
+  {
+    "suite": "Orders Test",
+    "testName": "Place an order successfully",
+    "status": "FAILED",
+    "time": "2026-05-28T20:13:53.188Z",
+    "duration": "1.038s",
+    "reportFile": "Orders_Test__Place_an_order_successfully__2026-05-28T20_13_53.188Z.txt",
+    "screenshot": "D:\\School\\Software Testing\\Group\\Econmgroup2\\ECOMMERCE_Shein_UI\\ECOMMERCE _group\\ECOMMERCE\\web\\reports\\screenshots\\place-order-failed.png"
+  },
+  {
+    "suite": "Orders Test",
+    "testName": "Order appears in order history after checkout",
+    "status": "FAILED",
+    "time": "2026-05-28T20:13:54.278Z",
+    "duration": "1.087s",
+    "reportFile": "Orders_Test__Order_appears_in_order_history_after_checkout__2026-05-28T20_13_54.278Z.txt",
+    "screenshot": "D:\\School\\Software Testing\\Group\\Econmgroup2\\ECOMMERCE_Shein_UI\\ECOMMERCE _group\\ECOMMERCE\\web\\reports\\screenshots\\order-history-failed.png"
+  },
+  {
+    "suite": "Login Test",
+    "testName": "Loads homepage correctly",
+    "status": "FAILED",
+    "time": "2026-05-28T20:13:58.240Z",
+    "duration": "1.435s",
+    "reportFile": "Login_Test__Loads_homepage_correctly__2026-05-28T20_13_58.240Z.txt",
+    "screenshot": "D:\\School\\Software Testing\\Group\\Econmgroup2\\ECOMMERCE_Shein_UI\\ECOMMERCE _group\\ECOMMERCE\\web\\reports\\screenshots\\homepage-load-failed.png"
+  },
+  {
+    "suite": "Login Test",
+    "testName": "Successful login with demo customer",
+    "status": "PASSED",
+    "time": "2026-05-28T20:13:59.525Z",
+    "duration": "1.281s",
+    "reportFile": "Login_Test__Successful_login_with_demo_customer__2026-05-28T20_13_59.525Z.txt",
+    "screenshot": "D:\\School\\Software Testing\\Group\\Econmgroup2\\ECOMMERCE_Shein_UI\\ECOMMERCE _group\\ECOMMERCE\\web\\reports\\screenshots\\customer-login-success.png"
+  },
+  {
+    "suite": "Login Test",
+    "testName": "Failed login with invalid credentials",
+    "status": "PASSED",
+    "time": "2026-05-28T20:14:02.558Z",
+    "duration": "3.03s",
+    "reportFile": "Login_Test__Failed_login_with_invalid_credentials__2026-05-28T20_14_02.558Z.txt",
+    "screenshot": "D:\\School\\Software Testing\\Group\\Econmgroup2\\ECOMMERCE_Shein_UI\\ECOMMERCE _group\\ECOMMERCE\\web\\reports\\screenshots\\invalid-login-validation.png"
+  },
+  {
+    "suite": "Login Test",
+    "testName": "Successful admin login",
+    "status": "PASSED",
+    "time": "2026-05-28T20:14:03.638Z",
+    "duration": "1.075s",
+    "reportFile": "Login_Test__Successful_admin_login__2026-05-28T20_14_03.638Z.txt",
+    "screenshot": "D:\\School\\Software Testing\\Group\\Econmgroup2\\ECOMMERCE_Shein_UI\\ECOMMERCE _group\\ECOMMERCE\\web\\reports\\screenshots\\admin-login-success.png"
+  },
+  {
+    "suite": "Cart Test",
+    "testName": "Add item to cart after login",
+    "status": "FAILED",
+    "time": "2026-05-28T20:14:06.418Z",
+    "duration": "1.74s",
+    "reportFile": "Cart_Test__Add_item_to_cart_after_login__2026-05-28T20_14_06.418Z.txt",
+    "screenshot": "D:\\School\\Software Testing\\Group\\Econmgroup2\\ECOMMERCE_Shein_UI\\ECOMMERCE _group\\ECOMMERCE\\web\\reports\\screenshots\\cart-add-failed.png"
+  },
+  {
+    "suite": "Products Test",
+    "testName": "Browse products on homepage",
+    "status": "PASSED",
+    "time": "2026-05-28T20:14:08.852Z",
+    "duration": "1.498s",
+    "reportFile": "Products_Test__Browse_products_on_homepage__2026-05-28T20_14_08.852Z.txt",
+    "screenshot": "D:\\School\\Software Testing\\Group\\Econmgroup2\\ECOMMERCE_Shein_UI\\ECOMMERCE _group\\ECOMMERCE\\web\\reports\\screenshots\\products-loaded.png"
+  },
+  {
+    "suite": "Admin Test",
+    "testName": "Admin login and access admin panel",
+    "status": "FAILED",
+    "time": "2026-05-28T20:14:22.037Z",
+    "duration": "12.194s",
+    "reportFile": "Admin_Test__Admin_login_and_access_admin_panel__2026-05-28T20_14_22.037Z.txt",
+    "screenshot": "D:\\School\\Software Testing\\Group\\Econmgroup2\\ECOMMERCE_Shein_UI\\ECOMMERCE _group\\ECOMMERCE\\web\\reports\\screenshots\\admin-panel-failed.png"
+  },
+  {
+    "suite": "Orders Test",
+    "testName": "View orders after login",
+    "status": "PASSED",
+    "time": "2026-05-28T20:14:53.682Z",
+    "duration": "2.039s",
+    "reportFile": "Orders_Test__View_orders_after_login__2026-05-28T20_14_53.682Z.txt",
+    "screenshot": "D:\\School\\Software Testing\\Group\\Econmgroup2\\ECOMMERCE_Shein_UI\\ECOMMERCE _group\\ECOMMERCE\\web\\reports\\screenshots\\view-orders-success.png"
+  },
+  {
+    "suite": "Orders Test",
+    "testName": "Place an order successfully",
+    "status": "PASSED",
+    "time": "2026-05-28T20:14:57.187Z",
+    "duration": "3.501s",
+    "reportFile": "Orders_Test__Place_an_order_successfully__2026-05-28T20_14_57.187Z.txt",
+    "screenshot": "D:\\School\\Software Testing\\Group\\Econmgroup2\\ECOMMERCE_Shein_UI\\ECOMMERCE _group\\ECOMMERCE\\web\\reports\\screenshots\\place-order-success.png"
+  },
+  {
+    "suite": "Orders Test",
+    "testName": "Order appears in order history after checkout",
+    "status": "PASSED",
+    "time": "2026-05-28T20:15:01.173Z",
+    "duration": "3.983s",
+    "reportFile": "Orders_Test__Order_appears_in_order_history_after_checkout__2026-05-28T20_15_01.173Z.txt",
+    "screenshot": "D:\\School\\Software Testing\\Group\\Econmgroup2\\ECOMMERCE_Shein_UI\\ECOMMERCE _group\\ECOMMERCE\\web\\reports\\screenshots\\order-history-success.png"
+  },
+  {
+    "suite": "Admin Test",
+    "testName": "Admin login and access admin panel",
+    "status": "FAILED",
+    "time": "2026-05-28T20:15:16.564Z",
+    "duration": "12s",
+    "reportFile": "Admin_Test__Admin_login_and_access_admin_panel__2026-05-28T20_15_16.564Z.txt",
+    "screenshot": "D:\\School\\Software Testing\\Group\\Econmgroup2\\ECOMMERCE_Shein_UI\\ECOMMERCE _group\\ECOMMERCE\\web\\reports\\screenshots\\admin-panel-failed.png"
+  },
+  {
+    "suite": "Login Test",
+    "testName": "Loads homepage correctly",
+    "status": "PASSED",
+    "time": "2026-05-28T20:15:19.212Z",
+    "duration": "1.437s",
+    "reportFile": "Login_Test__Loads_homepage_correctly__2026-05-28T20_15_19.212Z.txt",
+    "screenshot": "D:\\School\\Software Testing\\Group\\Econmgroup2\\ECOMMERCE_Shein_UI\\ECOMMERCE _group\\ECOMMERCE\\web\\reports\\screenshots\\homepage-loaded.png"
+  },
+  {
+    "suite": "Login Test",
+    "testName": "Successful login with demo customer",
+    "status": "PASSED",
+    "time": "2026-05-28T20:15:20.448Z",
+    "duration": "1.232s",
+    "reportFile": "Login_Test__Successful_login_with_demo_customer__2026-05-28T20_15_20.448Z.txt",
+    "screenshot": "D:\\School\\Software Testing\\Group\\Econmgroup2\\ECOMMERCE_Shein_UI\\ECOMMERCE _group\\ECOMMERCE\\web\\reports\\screenshots\\customer-login-success.png"
+  },
+  {
+    "suite": "Login Test",
+    "testName": "Failed login with invalid credentials",
+    "status": "PASSED",
+    "time": "2026-05-28T20:15:23.446Z",
+    "duration": "2.994s",
+    "reportFile": "Login_Test__Failed_login_with_invalid_credentials__2026-05-28T20_15_23.446Z.txt",
+    "screenshot": "D:\\School\\Software Testing\\Group\\Econmgroup2\\ECOMMERCE_Shein_UI\\ECOMMERCE _group\\ECOMMERCE\\web\\reports\\screenshots\\invalid-login-validation.png"
+  },
+  {
+    "suite": "Login Test",
+    "testName": "Successful admin login",
+    "status": "PASSED",
+    "time": "2026-05-28T20:15:24.603Z",
+    "duration": "1.154s",
+    "reportFile": "Login_Test__Successful_admin_login__2026-05-28T20_15_24.603Z.txt",
+    "screenshot": "D:\\School\\Software Testing\\Group\\Econmgroup2\\ECOMMERCE_Shein_UI\\ECOMMERCE _group\\ECOMMERCE\\web\\reports\\screenshots\\admin-login-success.png"
+  },
+  {
+    "suite": "Cart Test",
+    "testName": "Add item to cart after login",
+    "status": "PASSED",
+    "time": "2026-05-28T20:15:27.714Z",
+    "duration": "2.134s",
+    "reportFile": "Cart_Test__Add_item_to_cart_after_login__2026-05-28T20_15_27.714Z.txt",
+    "screenshot": "D:\\School\\Software Testing\\Group\\Econmgroup2\\ECOMMERCE_Shein_UI\\ECOMMERCE _group\\ECOMMERCE\\web\\reports\\screenshots\\cart-added-success.png"
+  },
+  {
+    "suite": "Products Test",
+    "testName": "Browse products on homepage",
+    "status": "PASSED",
+    "time": "2026-05-28T20:15:30.238Z",
+    "duration": "1.535s",
+    "reportFile": "Products_Test__Browse_products_on_homepage__2026-05-28T20_15_30.238Z.txt",
+    "screenshot": "D:\\School\\Software Testing\\Group\\Econmgroup2\\ECOMMERCE_Shein_UI\\ECOMMERCE _group\\ECOMMERCE\\web\\reports\\screenshots\\products-loaded.png"
+  },
+  {
+    "suite": "Admin Test",
+    "testName": "Admin login and access admin panel",
+    "status": "PASSED",
+    "time": "2026-05-28T20:16:34.570Z",
+    "duration": "2.303s",
+    "reportFile": "Admin_Test__Admin_login_and_access_admin_panel__2026-05-28T20_16_34.570Z.txt",
+    "screenshot": "D:\\School\\Software Testing\\Group\\Econmgroup2\\ECOMMERCE_Shein_UI\\ECOMMERCE _group\\ECOMMERCE\\web\\reports\\screenshots\\admin-panel-success.png"
+  },
+  {
+    "suite": "Orders Test",
+    "testName": "View orders after login",
+    "status": "PASSED",
+    "time": "2026-05-28T20:16:37.376Z",
+    "duration": "1.833s",
+    "reportFile": "Orders_Test__View_orders_after_login__2026-05-28T20_16_37.376Z.txt",
+    "screenshot": "D:\\School\\Software Testing\\Group\\Econmgroup2\\ECOMMERCE_Shein_UI\\ECOMMERCE _group\\ECOMMERCE\\web\\reports\\screenshots\\view-orders-success.png"
+  },
+  {
+    "suite": "Orders Test",
+    "testName": "Place an order successfully",
+    "status": "FAILED",
+    "time": "2026-05-28T20:16:41.353Z",
+    "duration": "3.972s",
+    "reportFile": "Orders_Test__Place_an_order_successfully__2026-05-28T20_16_41.353Z.txt",
+    "screenshot": "D:\\School\\Software Testing\\Group\\Econmgroup2\\ECOMMERCE_Shein_UI\\ECOMMERCE _group\\ECOMMERCE\\web\\reports\\screenshots\\place-order-failed.png"
+  },
+  {
+    "suite": "Orders Test",
+    "testName": "Order appears in order history after checkout",
+    "status": "PASSED",
+    "time": "2026-05-28T20:16:45.329Z",
+    "duration": "3.972s",
+    "reportFile": "Orders_Test__Order_appears_in_order_history_after_checkout__2026-05-28T20_16_45.329Z.txt",
+    "screenshot": "D:\\School\\Software Testing\\Group\\Econmgroup2\\ECOMMERCE_Shein_UI\\ECOMMERCE _group\\ECOMMERCE\\web\\reports\\screenshots\\order-history-success.png"
+  },
+  {
+    "suite": "Login Test",
+    "testName": "Loads homepage correctly",
+    "status": "PASSED",
+    "time": "2026-05-28T20:16:49.006Z",
+    "duration": "1.715s",
+    "reportFile": "Login_Test__Loads_homepage_correctly__2026-05-28T20_16_49.006Z.txt",
+    "screenshot": "D:\\School\\Software Testing\\Group\\Econmgroup2\\ECOMMERCE_Shein_UI\\ECOMMERCE _group\\ECOMMERCE\\web\\reports\\screenshots\\homepage-loaded.png"
+  },
+  {
+    "suite": "Login Test",
+    "testName": "Successful login with demo customer",
+    "status": "PASSED",
+    "time": "2026-05-28T20:16:50.391Z",
+    "duration": "1.382s",
+    "reportFile": "Login_Test__Successful_login_with_demo_customer__2026-05-28T20_16_50.391Z.txt",
+    "screenshot": "D:\\School\\Software Testing\\Group\\Econmgroup2\\ECOMMERCE_Shein_UI\\ECOMMERCE _group\\ECOMMERCE\\web\\reports\\screenshots\\customer-login-success.png"
+  },
+  {
+    "suite": "Login Test",
+    "testName": "Failed login with invalid credentials",
+    "status": "PASSED",
+    "time": "2026-05-28T20:16:53.701Z",
+    "duration": "3.306s",
+    "reportFile": "Login_Test__Failed_login_with_invalid_credentials__2026-05-28T20_16_53.701Z.txt",
+    "screenshot": "D:\\School\\Software Testing\\Group\\Econmgroup2\\ECOMMERCE_Shein_UI\\ECOMMERCE _group\\ECOMMERCE\\web\\reports\\screenshots\\invalid-login-validation.png"
+  },
+  {
+    "suite": "Login Test",
+    "testName": "Successful admin login",
+    "status": "PASSED",
+    "time": "2026-05-28T20:16:55.268Z",
+    "duration": "1.564s",
+    "reportFile": "Login_Test__Successful_admin_login__2026-05-28T20_16_55.268Z.txt",
+    "screenshot": "D:\\School\\Software Testing\\Group\\Econmgroup2\\ECOMMERCE_Shein_UI\\ECOMMERCE _group\\ECOMMERCE\\web\\reports\\screenshots\\admin-login-success.png"
+  },
+  {
+    "suite": "Cart Test",
+    "testName": "Add item to cart after login",
+    "status": "PASSED",
+    "time": "2026-05-28T20:16:58.170Z",
+    "duration": "1.909s",
+    "reportFile": "Cart_Test__Add_item_to_cart_after_login__2026-05-28T20_16_58.170Z.txt",
+    "screenshot": "D:\\School\\Software Testing\\Group\\Econmgroup2\\ECOMMERCE_Shein_UI\\ECOMMERCE _group\\ECOMMERCE\\web\\reports\\screenshots\\cart-added-success.png"
+  },
+  {
+    "suite": "Products Test",
+    "testName": "Browse products on homepage",
+    "status": "PASSED",
+    "time": "2026-05-28T20:17:00.774Z",
+    "duration": "1.62s",
+    "reportFile": "Products_Test__Browse_products_on_homepage__2026-05-28T20_17_00.774Z.txt",
+    "screenshot": "D:\\School\\Software Testing\\Group\\Econmgroup2\\ECOMMERCE_Shein_UI\\ECOMMERCE _group\\ECOMMERCE\\web\\reports\\screenshots\\products-loaded.png"
+  },
+  {
+    "suite": "Orders Test",
+    "testName": "View orders after login",
+    "status": "PASSED",
+    "time": "2026-05-28T20:17:20.892Z",
+    "duration": "2.119s",
+    "reportFile": "Orders_Test__View_orders_after_login__2026-05-28T20_17_20.892Z.txt",
+    "screenshot": "D:\\School\\Software Testing\\Group\\Econmgroup2\\ECOMMERCE_Shein_UI\\ECOMMERCE _group\\ECOMMERCE\\web\\reports\\screenshots\\view-orders-success.png"
+  },
+  {
+    "suite": "Orders Test",
+    "testName": "Place an order successfully",
+    "status": "FAILED",
+    "time": "2026-05-28T20:17:24.118Z",
+    "duration": "3.219s",
+    "reportFile": "Orders_Test__Place_an_order_successfully__2026-05-28T20_17_24.118Z.txt",
+    "screenshot": "D:\\School\\Software Testing\\Group\\Econmgroup2\\ECOMMERCE_Shein_UI\\ECOMMERCE _group\\ECOMMERCE\\web\\reports\\screenshots\\place-order-failed.png"
+  },
+  {
+    "suite": "Orders Test",
+    "testName": "Order appears in order history after checkout",
+    "status": "PASSED",
+    "time": "2026-05-28T20:17:28.244Z",
+    "duration": "4.122s",
+    "reportFile": "Orders_Test__Order_appears_in_order_history_after_checkout__2026-05-28T20_17_28.244Z.txt",
+    "screenshot": "D:\\School\\Software Testing\\Group\\Econmgroup2\\ECOMMERCE_Shein_UI\\ECOMMERCE _group\\ECOMMERCE\\web\\reports\\screenshots\\order-history-success.png"
+  },
+  {
+    "suite": "Login Test",
+    "testName": "Loads homepage correctly",
+    "status": "PASSED",
+    "time": "2026-05-28T20:17:31.351Z",
+    "duration": "1.728s",
+    "reportFile": "Login_Test__Loads_homepage_correctly__2026-05-28T20_17_31.351Z.txt",
+    "screenshot": "D:\\School\\Software Testing\\Group\\Econmgroup2\\ECOMMERCE_Shein_UI\\ECOMMERCE _group\\ECOMMERCE\\web\\reports\\screenshots\\homepage-loaded.png"
+  },
+  {
+    "suite": "Login Test",
+    "testName": "Successful login with demo customer",
+    "status": "PASSED",
+    "time": "2026-05-28T20:17:32.634Z",
+    "duration": "1.279s",
+    "reportFile": "Login_Test__Successful_login_with_demo_customer__2026-05-28T20_17_32.634Z.txt",
+    "screenshot": "D:\\School\\Software Testing\\Group\\Econmgroup2\\ECOMMERCE_Shein_UI\\ECOMMERCE _group\\ECOMMERCE\\web\\reports\\screenshots\\customer-login-success.png"
+  },
+  {
+    "suite": "Login Test",
+    "testName": "Failed login with invalid credentials",
+    "status": "PASSED",
+    "time": "2026-05-28T20:17:35.866Z",
+    "duration": "3.229s",
+    "reportFile": "Login_Test__Failed_login_with_invalid_credentials__2026-05-28T20_17_35.866Z.txt",
+    "screenshot": "D:\\School\\Software Testing\\Group\\Econmgroup2\\ECOMMERCE_Shein_UI\\ECOMMERCE _group\\ECOMMERCE\\web\\reports\\screenshots\\invalid-login-validation.png"
+  },
+  {
+    "suite": "Login Test",
+    "testName": "Successful admin login",
+    "status": "PASSED",
+    "time": "2026-05-28T20:17:37.185Z",
+    "duration": "1.315s",
+    "reportFile": "Login_Test__Successful_admin_login__2026-05-28T20_17_37.185Z.txt",
+    "screenshot": "D:\\School\\Software Testing\\Group\\Econmgroup2\\ECOMMERCE_Shein_UI\\ECOMMERCE _group\\ECOMMERCE\\web\\reports\\screenshots\\admin-login-success.png"
+  },
+  {
+    "suite": "Admin Test",
+    "testName": "Admin login and access admin panel",
+    "status": "PASSED",
+    "time": "2026-05-28T20:17:40.737Z",
+    "duration": "2.546s",
+    "reportFile": "Admin_Test__Admin_login_and_access_admin_panel__2026-05-28T20_17_40.737Z.txt",
+    "screenshot": "D:\\School\\Software Testing\\Group\\Econmgroup2\\ECOMMERCE_Shein_UI\\ECOMMERCE _group\\ECOMMERCE\\web\\reports\\screenshots\\admin-panel-success.png"
+  },
+  {
+    "suite": "Cart Test",
+    "testName": "Add item to cart after login",
+    "status": "PASSED",
+    "time": "2026-05-28T20:17:44.377Z",
+    "duration": "2.454s",
+    "reportFile": "Cart_Test__Add_item_to_cart_after_login__2026-05-28T20_17_44.377Z.txt",
+    "screenshot": "D:\\School\\Software Testing\\Group\\Econmgroup2\\ECOMMERCE_Shein_UI\\ECOMMERCE _group\\ECOMMERCE\\web\\reports\\screenshots\\cart-added-success.png"
+  },
+  {
+    "suite": "Products Test",
+    "testName": "Browse products on homepage",
+    "status": "PASSED",
+    "time": "2026-05-28T20:17:47.115Z",
+    "duration": "1.658s",
+    "reportFile": "Products_Test__Browse_products_on_homepage__2026-05-28T20_17_47.115Z.txt",
+    "screenshot": "D:\\School\\Software Testing\\Group\\Econmgroup2\\ECOMMERCE_Shein_UI\\ECOMMERCE _group\\ECOMMERCE\\web\\reports\\screenshots\\products-loaded.png"
+  },
+  {
+    "suite": "Orders Test",
+    "testName": "View orders after login",
+    "status": "PASSED",
+    "time": "2026-05-28T20:18:04.317Z",
+    "duration": "2.73s",
+    "reportFile": "Orders_Test__View_orders_after_login__2026-05-28T20_18_04.317Z.txt",
+    "screenshot": "D:\\School\\Software Testing\\Group\\Econmgroup2\\ECOMMERCE_Shein_UI\\ECOMMERCE _group\\ECOMMERCE\\web\\reports\\screenshots\\view-orders-success.png"
+  },
+  {
+    "suite": "Orders Test",
+    "testName": "Place an order successfully",
+    "status": "FAILED",
+    "time": "2026-05-28T20:18:08.591Z",
+    "duration": "4.265s",
+    "reportFile": "Orders_Test__Place_an_order_successfully__2026-05-28T20_18_08.591Z.txt",
+    "screenshot": "D:\\School\\Software Testing\\Group\\Econmgroup2\\ECOMMERCE_Shein_UI\\ECOMMERCE _group\\ECOMMERCE\\web\\reports\\screenshots\\place-order-failed.png"
+  },
+  {
+    "suite": "Orders Test",
+    "testName": "Order appears in order history after checkout",
+    "status": "PASSED",
+    "time": "2026-05-28T20:18:12.833Z",
+    "duration": "4.234s",
+    "reportFile": "Orders_Test__Order_appears_in_order_history_after_checkout__2026-05-28T20_18_12.833Z.txt",
+    "screenshot": "D:\\School\\Software Testing\\Group\\Econmgroup2\\ECOMMERCE_Shein_UI\\ECOMMERCE _group\\ECOMMERCE\\web\\reports\\screenshots\\order-history-success.png"
+  },
+  {
+    "suite": "Login Test",
+    "testName": "Loads homepage correctly",
+    "status": "PASSED",
+    "time": "2026-05-28T20:18:16.982Z",
+    "duration": "1.559s",
+    "reportFile": "Login_Test__Loads_homepage_correctly__2026-05-28T20_18_16.982Z.txt",
+    "screenshot": "D:\\School\\Software Testing\\Group\\Econmgroup2\\ECOMMERCE_Shein_UI\\ECOMMERCE _group\\ECOMMERCE\\web\\reports\\screenshots\\homepage-loaded.png"
+  },
+  {
+    "suite": "Login Test",
+    "testName": "Successful login with demo customer",
+    "status": "PASSED",
+    "time": "2026-05-28T20:18:18.664Z",
+    "duration": "1.678s",
+    "reportFile": "Login_Test__Successful_login_with_demo_customer__2026-05-28T20_18_18.664Z.txt",
+    "screenshot": "D:\\School\\Software Testing\\Group\\Econmgroup2\\ECOMMERCE_Shein_UI\\ECOMMERCE _group\\ECOMMERCE\\web\\reports\\screenshots\\customer-login-success.png"
+  },
+  {
+    "suite": "Login Test",
+    "testName": "Failed login with invalid credentials",
+    "status": "PASSED",
+    "time": "2026-05-28T20:18:22.039Z",
+    "duration": "3.372s",
+    "reportFile": "Login_Test__Failed_login_with_invalid_credentials__2026-05-28T20_18_22.039Z.txt",
+    "screenshot": "D:\\School\\Software Testing\\Group\\Econmgroup2\\ECOMMERCE_Shein_UI\\ECOMMERCE _group\\ECOMMERCE\\web\\reports\\screenshots\\invalid-login-validation.png"
+  },
+  {
+    "suite": "Login Test",
+    "testName": "Successful admin login",
+    "status": "PASSED",
+    "time": "2026-05-28T20:18:23.235Z",
+    "duration": "1.191s",
+    "reportFile": "Login_Test__Successful_admin_login__2026-05-28T20_18_23.235Z.txt",
+    "screenshot": "D:\\School\\Software Testing\\Group\\Econmgroup2\\ECOMMERCE_Shein_UI\\ECOMMERCE _group\\ECOMMERCE\\web\\reports\\screenshots\\admin-login-success.png"
+  },
+  {
+    "suite": "Admin Test",
+    "testName": "Admin login and access admin panel",
+    "status": "PASSED",
+    "time": "2026-05-28T20:18:26.193Z",
+    "duration": "1.893s",
+    "reportFile": "Admin_Test__Admin_login_and_access_admin_panel__2026-05-28T20_18_26.193Z.txt",
+    "screenshot": "D:\\School\\Software Testing\\Group\\Econmgroup2\\ECOMMERCE_Shein_UI\\ECOMMERCE _group\\ECOMMERCE\\web\\reports\\screenshots\\admin-panel-success.png"
+  },
+  {
+    "suite": "Cart Test",
+    "testName": "Add item to cart after login",
+    "status": "PASSED",
+    "time": "2026-05-28T20:18:29.246Z",
+    "duration": "2.125s",
+    "reportFile": "Cart_Test__Add_item_to_cart_after_login__2026-05-28T20_18_29.246Z.txt",
+    "screenshot": "D:\\School\\Software Testing\\Group\\Econmgroup2\\ECOMMERCE_Shein_UI\\ECOMMERCE _group\\ECOMMERCE\\web\\reports\\screenshots\\cart-added-success.png"
+  },
+  {
+    "suite": "Products Test",
+    "testName": "Browse products on homepage",
+    "status": "PASSED",
+    "time": "2026-05-28T20:18:31.887Z",
+    "duration": "1.64s",
+    "reportFile": "Products_Test__Browse_products_on_homepage__2026-05-28T20_18_31.887Z.txt",
+    "screenshot": "D:\\School\\Software Testing\\Group\\Econmgroup2\\ECOMMERCE_Shein_UI\\ECOMMERCE _group\\ECOMMERCE\\web\\reports\\screenshots\\products-loaded.png"
+  }
+]

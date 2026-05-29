@@ -1,0 +1,26 @@
+
+====================================================
+TEST SUITE: Login Test
+TEST CASE: Loads homepage correctly
+STATUS: PASSED
+TIME: 2026-05-28T20:15:19.212Z
+DURATION: 1.437s
+====================================================
+
+FUNCTIONALITIES VERIFIED:
+✔ Homepage accessible
+✔ Browser loaded frontend
+✔ Page title validation
+
+EXPECTED RESULT:
+Homepage should pass the country selection gate and title should contain E-Commerce
+
+ACTUAL RESULT:
+Country selected and page title loaded: E-Commerce Store
+
+
+SCREENSHOT:
+D:\School\Software Testing\Group\Econmgroup2\ECOMMERCE_Shein_UI\ECOMMERCE _group\ECOMMERCE\web\reports\screenshots\homepage-loaded.png
+
+====================================================
+

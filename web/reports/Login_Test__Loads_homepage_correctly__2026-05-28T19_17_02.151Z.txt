@@ -1,0 +1,31 @@
+
+====================================================
+TEST SUITE: Login Test
+TEST CASE: Loads homepage correctly
+STATUS: FAILED
+TIME: 2026-05-28T19:17:02.151Z
+DURATION: 1.089s
+====================================================
+
+FUNCTIONALITIES VERIFIED:
+✔ Homepage accessibility validation
+
+EXPECTED RESULT:
+Homepage should load successfully
+
+ACTUAL RESULT:
+Homepage failed to load
+
+ERROR DETAILS:
+Error: [2mexpect([22m[31mreceived[39m[2m).[22mtoContain[2m([22m[32mexpected[39m[2m) // indexOf[22m
+
+Expected substring: [32m"ECOMMERCE"[39m
+Received string:    [31m"E-Commerce Store"[39m
+    at Object.toContain (D:\School\Software Testing\Group\Econmgroup2\ECOMMERCE_Shein_UI\ECOMMERCE _group\ECOMMERCE\web\tests\login.test.js:37:27)
+    at processTicksAndRejections (node:internal/process/task_queues:104:5)
+
+SCREENSHOT:
+D:\School\Software Testing\Group\Econmgroup2\ECOMMERCE_Shein_UI\ECOMMERCE _group\ECOMMERCE\web\reports\screenshots\homepage-load-failed.png
+
+====================================================
+

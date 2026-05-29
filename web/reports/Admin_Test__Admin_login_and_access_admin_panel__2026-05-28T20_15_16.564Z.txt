@@ -1,0 +1,29 @@
+
+====================================================
+TEST SUITE: Admin Test
+TEST CASE: Admin login and access admin panel
+STATUS: FAILED
+TIME: 2026-05-28T20:15:16.564Z
+DURATION: 12s
+====================================================
+
+FUNCTIONALITIES VERIFIED:
+✔ Admin functionality validation
+
+EXPECTED RESULT:
+Admin dashboard should open
+
+ACTUAL RESULT:
+Admin dashboard inaccessible
+
+ERROR DETAILS:
+TimeoutError: Waiting for element to be located By(css selector, .pageAdmin)
+Wait timed out after 10080ms
+    at D:\School\Software Testing\Group\Econmgroup2\ECOMMERCE_Shein_UI\ECOMMERCE _group\ECOMMERCE\web\node_modules\selenium-webdriver\lib\webdriver.js:929:22
+    at processTicksAndRejections (node:internal/process/task_queues:104:5)
+
+SCREENSHOT:
+D:\School\Software Testing\Group\Econmgroup2\ECOMMERCE_Shein_UI\ECOMMERCE _group\ECOMMERCE\web\reports\screenshots\admin-panel-failed.png
+
+====================================================
+

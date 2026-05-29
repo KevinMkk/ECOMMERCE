@@ -1,0 +1,38 @@
+
+====================================================
+TEST SUITE: Orders Test
+TEST CASE: Order appears in order history after checkout
+STATUS: FAILED
+TIME: 2026-05-28T19:16:59.579Z
+DURATION: 10.518s
+====================================================
+
+FUNCTIONALITIES VERIFIED:
+✔ Order history validation
+
+EXPECTED RESULT:
+Orders should appear in order history
+
+ACTUAL RESULT:
+No orders found in order history
+
+ERROR DETAILS:
+
+TimeoutError: Waiting for element to be located By(xpath, //button[text()='Sign In'])
+Wait timed out after 10127ms
+    at D:\School\Software Testing\Group\Econmgroup2\ECOMMERCE_Shein_UI\ECOMMERCE _group\ECOMMERCE\web\node_modules\selenium-webdriver\lib\webdriver.js:929:22
+    at processTicksAndRejections (node:internal/process/task_queues:104:5)
+
+POSSIBLE CAUSES:
+- Orders not saved to database
+- Orders API failed
+- Frontend rendering issue
+- Authentication issue
+- Order retrieval query failure
+
+
+SCREENSHOT:
+D:\School\Software Testing\Group\Econmgroup2\ECOMMERCE_Shein_UI\ECOMMERCE _group\ECOMMERCE\web\reports\screenshots\order-history-failed.png
+
+====================================================
+

@@ -1,0 +1,29 @@
+
+====================================================
+TEST SUITE: Cart Test
+TEST CASE: Add item to cart after login
+STATUS: FAILED
+TIME: 2026-05-28T19:17:57.777Z
+DURATION: 10.902s
+====================================================
+
+FUNCTIONALITIES VERIFIED:
+✔ Cart functionality validation
+
+EXPECTED RESULT:
+Item should be added to cart
+
+ACTUAL RESULT:
+Cart update failed
+
+ERROR DETAILS:
+TimeoutError: Waiting for element to be located By(xpath, //button[text()='Sign In'])
+Wait timed out after 10025ms
+    at D:\School\Software Testing\Group\Econmgroup2\ECOMMERCE_Shein_UI\ECOMMERCE _group\ECOMMERCE\web\node_modules\selenium-webdriver\lib\webdriver.js:929:22
+    at processTicksAndRejections (node:internal/process/task_queues:104:5)
+
+SCREENSHOT:
+D:\School\Software Testing\Group\Econmgroup2\ECOMMERCE_Shein_UI\ECOMMERCE _group\ECOMMERCE\web\reports\screenshots\cart-add-failed.png
+
+====================================================
+

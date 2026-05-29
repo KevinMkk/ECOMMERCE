@@ -1,0 +1,28 @@
+
+====================================================
+TEST SUITE: Orders Test
+TEST CASE: View orders after login
+STATUS: PASSED
+TIME: 2026-05-28T20:14:53.682Z
+DURATION: 2.039s
+====================================================
+
+FUNCTIONALITIES VERIFIED:
+✔ Customer authentication
+✔ Orders page navigation
+✔ Orders retrieval
+✔ Orders rendering
+✔ Authenticated order access
+
+EXPECTED RESULT:
+Orders page should display customer orders
+
+ACTUAL RESULT:
+Orders page loaded successfully with 1 orders displayed
+
+
+SCREENSHOT:
+D:\School\Software Testing\Group\Econmgroup2\ECOMMERCE_Shein_UI\ECOMMERCE _group\ECOMMERCE\web\reports\screenshots\view-orders-success.png
+
+====================================================
+

@@ -1,0 +1,29 @@
+
+====================================================
+TEST SUITE: Orders Test
+TEST CASE: View orders after login
+STATUS: FAILED
+TIME: 2026-05-28T19:16:38.751Z
+DURATION: 11.141s
+====================================================
+
+FUNCTIONALITIES VERIFIED:
+✔ Orders page validation
+
+EXPECTED RESULT:
+Orders page should load successfully
+
+ACTUAL RESULT:
+Orders page failed to load or orders inaccessible
+
+ERROR DETAILS:
+TimeoutError: Waiting for element to be located By(xpath, //button[text()='Sign In'])
+Wait timed out after 10059ms
+    at D:\School\Software Testing\Group\Econmgroup2\ECOMMERCE_Shein_UI\ECOMMERCE _group\ECOMMERCE\web\node_modules\selenium-webdriver\lib\webdriver.js:929:22
+    at processTicksAndRejections (node:internal/process/task_queues:104:5)
+
+SCREENSHOT:
+D:\School\Software Testing\Group\Econmgroup2\ECOMMERCE_Shein_UI\ECOMMERCE _group\ECOMMERCE\web\reports\screenshots\view-orders-failed.png
+
+====================================================
+

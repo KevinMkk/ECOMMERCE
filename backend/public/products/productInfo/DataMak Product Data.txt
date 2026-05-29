@@ -1,0 +1,74 @@
+# DataMak Product Data (plain text)
+
+[SMARTPHONES]
+iPhone 15 Pro Max (256GB) | 28999.00 | /backend/products/images/iPhone15ProMax.jpg
+Samsung Galaxy S24 Ultra | 26999.00 | /backend/products/images/GalaxyS24Ultra.jpg
+Google Pixel 8 Pro | 21999.00 | /backend/products/images/Pixel8Pro.jpg
+OnePlus 12 | 18999.00 | /backend/products/images/OnePlus12.jpg
+Xiaomi 14 Pro | 17999.00 | /backend/products/images/Xiaomi14Pro.jpg
+Huawei P60 Pro | 19999.00 | /backend/products/images/HuaweiP60Pro.jpg
+Nothing Phone (2) | 15999.00 | /backend/products/images/NothingPhone2.jpg
+Samsung Galaxy A54 | 9999.00 | /backend/products/images/GalaxyA54.jpg
+iPhone SE (2023) | 11999.00 | /backend/products/images/iPhoneSE.jpg
+Redmi Note 13 Pro | 7999.00 | /backend/products/images/RedmiNote13.jpg
+
+[LAPTOPS]
+MacBook Pro M3 (14-inch) | 42999.00 | /backend/products/images/MacBookProM3.jpg
+Dell XPS 15 | 38999.00 | /backend/products/images/DellXPS15.jpg
+HP Spectre x360 | 34999.00 | /backend/products/images/HPSpectre.jpg
+Lenovo ThinkPad X1 Carbon | 36999.00 | /backend/products/images/ThinkPadX1.jpg
+Asus ROG Zephyrus G14 | 31999.00 | /backend/products/images/ROGZephyrus.jpg
+Acer Predator Helios 300 | 27999.00 | /backend/products/images/PredatorHelios.jpg
+MacBook Air M2 | 28999.00 | /backend/products/images/MacBookAirM2.jpg
+Lenovo IdeaPad 5 | 18999.00 | /backend/products/images/IdeaPad5.jpg
+HP Pavilion 15 | 15999.00 | /backend/products/images/HPPavilion.jpg
+Asus VivoBook 14 | 13999.00 | /backend/products/images/VivoBook14.jpg
+
+[ACCESSORIES]
+AirPods Pro (2nd Gen) | 5999.00 | /backend/products/images/AirPodsPro.jpg
+Samsung Galaxy Buds2 Pro | 4999.00 | /backend/products/images/GalaxyBuds2.jpg
+Sony WH-1000XM5 Headphones | 7999.00 | /backend/products/images/SonyXM5.jpg
+Anker Power Bank (20000mAh) | 1499.00 | /backend/products/images/AnkerPowerBank.jpg
+Logitech MX Master 3 Mouse | 2499.00 | /backend/products/images/MXMaster3.jpg
+Apple Magic Keyboard | 2999.00 | /backend/products/images/MagicKeyboard.jpg
+USB-C Hub Multiport Adapter | 899.00 | /backend/products/images/USBCAdapter.jpg
+Portable SSD (1TB) | 1999.00 | /backend/products/images/PortableSSD.jpg
+Wireless Charger Pad | 799.00 | /backend/products/images/WirelessCharger.jpg
+Phone Tripod Stand | 499.00 | /backend/products/images/TripodStand.jpg
+
+[HOME_ELECTRONICS]
+Samsung 55" 4K Smart TV | 14999.00 | /backend/products/images/SamsungTV55.jpg
+LG OLED 65" TV | 32999.00 | /backend/products/images/LGOLED65.jpg
+Sony Soundbar HT-S400 | 6999.00 | /backend/products/images/SonySoundbar.jpg
+Hisense 43" Smart TV | 8999.00 | /backend/products/images/Hisense43.jpg
+JBL PartyBox Speaker | 7999.00 | /backend/products/images/JBLPartyBox.jpg
+Amazon Echo Dot (5th Gen) | 1499.00 | /backend/products/images/EchoDot.jpg
+Google Nest Hub | 2499.00 | /backend/products/images/NestHub.jpg
+Philips Air Fryer XL | 2999.00 | /backend/products/images/AirFryer.jpg
+Dyson V11 Vacuum | 9999.00 | /backend/products/images/DysonV11.jpg
+Smart LED Light Kit | 999.00 | /backend/products/images/SmartLED.jpg
+
+[GAMING]
+PlayStation 5 Console | 13999.00 | /backend/products/images/PS5.jpg
+Xbox Series X | 12999.00 | /backend/products/images/XboxSeriesX.jpg
+Nintendo Switch OLED | 8999.00 | /backend/products/images/SwitchOLED.jpg
+DualSense Wireless Controller | 1999.00 | /backend/products/images/DualSense.jpg
+Xbox Wireless Controller | 1899.00 | /backend/products/images/XboxController.jpg
+Gaming Headset RGB | 1499.00 | /backend/products/images/GamingHeadset.jpg
+Mechanical Gaming Keyboard | 1799.00 | /backend/products/images/MechanicalKeyboard.jpg
+Gaming Mouse RGB | 999.00 | /backend/products/images/GamingMouse.jpg
+4K Gaming Monitor (144Hz) | 8999.00 | /backend/products/images/4KMonitor.jpg
+Racing Wheel Controller | 4999.00 | /backend/products/images/RacingWheel.jpg
+PlayStation 2 Console | 999.00 | /backend/products/images/1a.jpg
+
+[CAMERAS]
+Canon EOS R50 Mirrorless | 18999.00 | /backend/products/images/CanonR50.jpg
+Sony Alpha a7 III | 29999.00 | /backend/products/images/SonyA7III.jpg
+Nikon Z6 II | 27999.00 | /backend/products/images/NikonZ6.jpg
+GoPro HERO12 Black | 8999.00 | /backend/products/images/GoPro12.jpg
+DJI Mini 3 Drone | 12999.00 | /backend/products/images/DJIMini3.jpg
+Insta360 X3 | 9999.00 | /backend/products/images/Insta360.jpg
+Canon EOS 250D DSLR | 13999.00 | /backend/products/images/Canon250D.jpg
+Tripod Professional Stand | 1499.00 | /backend/products/images/TripodPro.jpg
+Camera Lens 50mm f/1.8 | 2999.00 | /backend/products/images/50mmLens.jpg
+External Camera Flash | 1999.00 | /backend/products/images/CameraFlash.jpg
