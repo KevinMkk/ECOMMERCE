@@ -1,7 +1,7 @@
 import { useEffect, useState, useCallback } from "react";
 
-const API_URL = "/api";
-const ASSET_URL = "";
+const API_URL = (import.meta.env.VITE_API_URL || "/api").replace(/\/$/, "");
+const ASSET_URL = (import.meta.env.VITE_ASSET_URL || API_URL.replace(/\/api$/, "") || "").replace(/\/$/, "");
 
 const statusSteps = ["Placed", "Confirmed", "Processing", "Shipped", "Delivered"];
 
@@ -73,13 +73,13 @@ async function api(path, options = {}) {
       headers: { "Content-Type": "application/json", ...(options.headers ?? {}) },
     });
   } catch {
-    throw new Error("Backend server is not running. Start the backend on port 4000.");
+    throw new Error(`Backend server is not reachable at ${API_URL}.`);
   }
   let data;
   try {
     data = await response.json();
   } catch {
-    throw new Error("Backend returned an invalid response. Make sure the backend is running on port 4000.");
+    throw new Error(`Backend returned an invalid response from ${API_URL}.`);
   }
   if (!response.ok) throw new Error(data?.message || "Request failed");
   return data;
