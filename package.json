@@ -1,8 +1,23 @@
 {
+  "name": "ecommerce-web",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "jest --runInBand"
+  },
   "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
     "selenium-webdriver": "^4.43.0"
   },
   "devDependencies": {
-    "jest": "^30.4.2"
+    "@vitejs/plugin-react": "^4.2.1",
+    "chromedriver": "^148.0.2",
+    "jest": "^30.4.2",
+    "jest-html-reporters": "^3.1.7",
+    "vite": "^5.0.8"
   }
 }
